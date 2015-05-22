@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/02_cms/protected/data/dbpatch/01_content_user_site.theme.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/02_cms/protected/data/mysql.table.sfp_platform.content_themes.sql" dialect="MySQL" />
+  </component>
+</project>
