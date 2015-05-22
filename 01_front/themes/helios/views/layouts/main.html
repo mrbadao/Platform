@@ -24,7 +24,10 @@
         <link rel="stylesheet" href="${makeUpPath|''}css/ie/v8.css"/><![endif]-->
     </head>
 
-    <body class="homepage" tal:content="structure content">
+    <body class="homepage">
+        <tal:block id="side" tal:content="structure php:this.widget('application.widgets.headerWidget',array(),true)"/>
+        <tal:block tal:content="structure content"/>
+        <tal:block id="side" tal:content="structure php:this.widget('application.widgets.footerWidget',array(),true)"/>
     </body>
 
 </html>
