@@ -1,0 +1,681 @@
+2015/05/25 06:21:01 [error] [php] include(ContentUserSite.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (C:\wamp\www\platform\03_library\YiiBase.php:423)
+Stack trace:
+#0 C:\wamp\www\platform\03_library\yii.php(57): spl_autoload_call()
+#1 C:\wamp\www\platform\03_library\yii.php(42): LoadModelsConfig()
+#2 C:\wamp\www\platform\01_front\index.php(18): createExtendWebApplication()
+REQUEST_URI=/gii/model
+in C:\wamp\www\platform\01_front\index.php (18)
+2015/05/25 06:36:10 [error] [php] include(ContentUserSite.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (C:\wamp\www\platform\03_library\YiiBase.php:423)
+Stack trace:
+#0 C:\wamp\www\platform\03_library\yii.php(57): spl_autoload_call()
+#1 C:\wamp\www\platform\03_library\yii.php(42): LoadModelsConfig()
+#2 C:\wamp\www\platform\01_front\index.php(18): createExtendWebApplication()
+REQUEST_URI=/gii/model
+in C:\wamp\www\platform\01_front\index.php (18)
+2015/05/25 06:36:16 [error] [php] include(ContentUserSite.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (C:\wamp\www\platform\03_library\YiiBase.php:423)
+Stack trace:
+#0 C:\wamp\www\platform\03_library\yii.php(57): spl_autoload_call()
+#1 C:\wamp\www\platform\03_library\yii.php(42): LoadModelsConfig()
+#2 C:\wamp\www\platform\01_front\index.php(18): createExtendWebApplication()
+REQUEST_URI=/gii/model
+in C:\wamp\www\platform\01_front\index.php (18)
+2015/05/25 06:36:28 [error] [php] include(ContentUserSite.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (C:\wamp\www\platform\03_library\YiiBase.php:423)
+Stack trace:
+#0 C:\wamp\www\platform\03_library\yii.php(57): spl_autoload_call()
+#1 C:\wamp\www\platform\03_library\yii.php(42): LoadModelsConfig()
+#2 C:\wamp\www\platform\01_front\index.php(18): createExtendWebApplication()
+REQUEST_URI=/gii/
+in C:\wamp\www\platform\01_front\index.php (18)
+2015/05/25 06:37:15 [error] [php] include(ContentUserSite.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (C:\wamp\www\platform\03_library\YiiBase.php:423)
+Stack trace:
+#0 C:\wamp\www\platform\03_library\yii.php(57): spl_autoload_call()
+#1 C:\wamp\www\platform\03_library\yii.php(42): LoadModelsConfig()
+#2 C:\wamp\www\platform\01_front\index.php(18): createExtendWebApplication()
+REQUEST_URI=/gii/
+in C:\wamp\www\platform\01_front\index.php (18)
+2015/05/25 07:46:32 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'sfp_service_session.sessions' doesn't exist. The SQL statement executed was: DELETE FROM `sessions` WHERE expire<:expire. Bound with :expire=1432539992.
+in C:\wamp\www\platform\01_front\protected\components\SiteUrlRule.php (17)
+in C:\wamp\www\platform\01_front\index.php (18)
+2015/05/25 07:46:32 [error] [php] include(ContentUserSite.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (C:\wamp\www\platform\03_library\YiiBase.php:423)
+Stack trace:
+#0 C:\wamp\www\platform\01_front\protected\components\SiteUrlRule.php(20): spl_autoload_call()
+#1 C:\wamp\www\platform\03_library\web\CUrlManager.php(368): SiteUrlRule->parseUrl()
+#2 C:\wamp\www\platform\03_library\web\CWebApplication.php(141): CUrlManager->parseUrl()
+#3 C:\wamp\www\platform\03_library\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\www\platform\03_library\yii.php(46): CWebApplication->run()
+#5 C:\wamp\www\platform\01_front\index.php(18): createExtendWebApplication()
+REQUEST_URI=/
+in C:\wamp\www\platform\01_front\protected\components\SiteUrlRule.php (20)
+in C:\wamp\www\platform\01_front\index.php (18)
+2015/05/25 07:47:39 [error] [php] include(ContentUserSite.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (C:\wamp\www\platform\03_library\YiiBase.php:423)
+Stack trace:
+#0 C:\wamp\www\platform\01_front\protected\components\SiteUrlRule.php(20): spl_autoload_call()
+#1 C:\wamp\www\platform\03_library\web\CUrlManager.php(368): SiteUrlRule->parseUrl()
+#2 C:\wamp\www\platform\03_library\web\CWebApplication.php(141): CUrlManager->parseUrl()
+#3 C:\wamp\www\platform\03_library\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\www\platform\03_library\yii.php(46): CWebApplication->run()
+#5 C:\wamp\www\platform\01_front\index.php(18): createExtendWebApplication()
+REQUEST_URI=/
+in C:\wamp\www\platform\01_front\protected\components\SiteUrlRule.php (20)
+in C:\wamp\www\platform\01_front\index.php (18)
+2015/05/25 07:47:40 [error] [php] include(ContentUserSite.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (C:\wamp\www\platform\03_library\YiiBase.php:423)
+Stack trace:
+#0 C:\wamp\www\platform\01_front\protected\components\SiteUrlRule.php(20): spl_autoload_call()
+#1 C:\wamp\www\platform\03_library\web\CUrlManager.php(368): SiteUrlRule->parseUrl()
+#2 C:\wamp\www\platform\03_library\web\CWebApplication.php(141): CUrlManager->parseUrl()
+#3 C:\wamp\www\platform\03_library\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\www\platform\03_library\yii.php(46): CWebApplication->run()
+#5 C:\wamp\www\platform\01_front\index.php(18): createExtendWebApplication()
+REQUEST_URI=/
+in C:\wamp\www\platform\01_front\protected\components\SiteUrlRule.php (20)
+in C:\wamp\www\platform\01_front\index.php (18)
+2015/05/25 07:50:00 [error] [php] include(ContentUserSite.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (C:\wamp\www\platform\03_library\YiiBase.php:423)
+Stack trace:
+#0 C:\wamp\www\platform\01_front\protected\components\SiteUrlRule.php(20): spl_autoload_call()
+#1 C:\wamp\www\platform\03_library\web\CUrlManager.php(368): SiteUrlRule->parseUrl()
+#2 C:\wamp\www\platform\03_library\web\CWebApplication.php(141): CUrlManager->parseUrl()
+#3 C:\wamp\www\platform\03_library\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\www\platform\03_library\yii.php(45): CWebApplication->run()
+#5 C:\wamp\www\platform\01_front\index.php(18): createExtendWebApplication()
+REQUEST_URI=/
+in C:\wamp\www\platform\01_front\protected\components\SiteUrlRule.php (20)
+in C:\wamp\www\platform\01_front\index.php (18)
+2015/05/25 07:50:07 [error] [php] include(ContentUserSite.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (C:\wamp\www\platform\03_library\YiiBase.php:423)
+Stack trace:
+#0 C:\wamp\www\platform\01_front\protected\components\SiteUrlRule.php(20): spl_autoload_call()
+#1 C:\wamp\www\platform\03_library\web\CUrlManager.php(368): SiteUrlRule->parseUrl()
+#2 C:\wamp\www\platform\03_library\web\CWebApplication.php(141): CUrlManager->parseUrl()
+#3 C:\wamp\www\platform\03_library\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\www\platform\03_library\yii.php(45): CWebApplication->run()
+#5 C:\wamp\www\platform\01_front\index.php(18): createExtendWebApplication()
+REQUEST_URI=/
+in C:\wamp\www\platform\01_front\protected\components\SiteUrlRule.php (20)
+in C:\wamp\www\platform\01_front\index.php (18)
+2015/05/25 07:50:20 [error] [php] include(ContentUserSite.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (C:\wamp\www\platform\03_library\YiiBase.php:423)
+Stack trace:
+#0 C:\wamp\www\platform\01_front\protected\components\SiteUrlRule.php(20): spl_autoload_call()
+#1 C:\wamp\www\platform\03_library\web\CUrlManager.php(368): SiteUrlRule->parseUrl()
+#2 C:\wamp\www\platform\03_library\web\CWebApplication.php(141): CUrlManager->parseUrl()
+#3 C:\wamp\www\platform\03_library\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\www\platform\03_library\yii.php(45): CWebApplication->run()
+#5 C:\wamp\www\platform\01_front\index.php(18): createExtendWebApplication()
+REQUEST_URI=/
+in C:\wamp\www\platform\01_front\protected\components\SiteUrlRule.php (20)
+in C:\wamp\www\platform\01_front\index.php (18)
+2015/05/25 08:23:50 [error] [exception.PHPTAL_ParserException] exception 'PHPTAL_ParserException' with message 'Tag closure mismatch, expected < /meta > (opened in line 6) but found < /head >' in C:\wamp\www\platform\01_front\themes\adminlte\views\layouts\main.html:22
+Stack trace:
+#0 C:\wamp\www\platform\01_front\protected\vendors\phptal\PHPTAL\Dom\SaxXmlParser.php(194): PHPTAL_Dom_PHPTALDocumentBuilder->onElementClose('head')
+#1 C:\wamp\www\platform\01_front\protected\vendors\phptal\PHPTAL.php(1113): PHPTAL_Dom_SaxXmlParser->parseString(Object(PHPTAL_Dom_PHPTALDocumentBuilder), '<!DOCTYPE html>...', 'C:\wamp\www\pla...')
+#2 C:\wamp\www\platform\01_front\protected\vendors\phptal\PHPTAL.php(834): PHPTAL->parse()
+#3 C:\wamp\www\platform\01_front\protected\vendors\phptal\PHPTAL.php(667): PHPTAL->prepare()
+#4 C:\wamp\www\platform\01_front\protected\extensions\PHPTALViewRenderer.php(50): PHPTAL->execute()
+#5 C:\wamp\www\platform\03_library\web\CBaseController.php(94): PHPTALViewRenderer->renderFile(Object(SiteController), 'C:\wamp\www\pla...', Array, true)
+#6 C:\wamp\www\platform\01_front\protected\components\Controller.php(43): CBaseController->renderFile('C:\wamp\www\pla...', Array, true)
+#7 C:\wamp\www\platform\01_front\protected\controllers\SiteController.php(11): Controller->render('index')
+#8 C:\wamp\www\platform\03_library\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#9 C:\wamp\www\platform\03_library\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 C:\wamp\www\platform\03_library\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#11 C:\wamp\www\platform\03_library\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\wamp\www\platform\03_library\web\CWebApplication.php(283): CController->run('')
+#13 C:\wamp\www\platform\03_library\web\CWebApplication.php(142): CWebApplication->runController('')
+#14 C:\wamp\www\platform\03_library\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\wamp\www\platform\03_library\yii.php(45): CApplication->run()
+#16 C:\wamp\www\platform\01_front\index.php(18): Yii::createExtendWebApplication('C:\wamp\www\pla...')
+#17 {main}
+REQUEST_URI=/
+---
+2015/05/25 08:24:15 [error] [exception.PHPTAL_ParserException] exception 'PHPTAL_ParserException' with message 'Tag closure mismatch, expected < /meta > (opened in line 4) but found < /head >' in C:\wamp\www\platform\01_front\themes\adminlte\views\layouts\main.html:22
+Stack trace:
+#0 C:\wamp\www\platform\01_front\protected\vendors\phptal\PHPTAL\Dom\SaxXmlParser.php(194): PHPTAL_Dom_PHPTALDocumentBuilder->onElementClose('head')
+#1 C:\wamp\www\platform\01_front\protected\vendors\phptal\PHPTAL.php(1113): PHPTAL_Dom_SaxXmlParser->parseString(Object(PHPTAL_Dom_PHPTALDocumentBuilder), '<!DOCTYPE html>...', 'C:\wamp\www\pla...')
+#2 C:\wamp\www\platform\01_front\protected\vendors\phptal\PHPTAL.php(834): PHPTAL->parse()
+#3 C:\wamp\www\platform\01_front\protected\vendors\phptal\PHPTAL.php(667): PHPTAL->prepare()
+#4 C:\wamp\www\platform\01_front\protected\extensions\PHPTALViewRenderer.php(50): PHPTAL->execute()
+#5 C:\wamp\www\platform\03_library\web\CBaseController.php(94): PHPTALViewRenderer->renderFile(Object(SiteController), 'C:\wamp\www\pla...', Array, true)
+#6 C:\wamp\www\platform\01_front\protected\components\Controller.php(43): CBaseController->renderFile('C:\wamp\www\pla...', Array, true)
+#7 C:\wamp\www\platform\01_front\protected\controllers\SiteController.php(11): Controller->render('index')
+#8 C:\wamp\www\platform\03_library\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#9 C:\wamp\www\platform\03_library\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 C:\wamp\www\platform\03_library\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#11 C:\wamp\www\platform\03_library\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\wamp\www\platform\03_library\web\CWebApplication.php(283): CController->run('')
+#13 C:\wamp\www\platform\03_library\web\CWebApplication.php(142): CWebApplication->runController('')
+#14 C:\wamp\www\platform\03_library\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\wamp\www\platform\03_library\yii.php(45): CApplication->run()
+#16 C:\wamp\www\platform\01_front\index.php(18): Yii::createExtendWebApplication('C:\wamp\www\pla...')
+#17 {main}
+REQUEST_URI=/
+---
+2015/05/25 08:24:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar2.png".' in C:\wamp\www\platform\03_library\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\platform\03_library\web\CWebApplication.php(142): CWebApplication->runController('img/avatar2.png')
+#1 C:\wamp\www\platform\03_library\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\platform\03_library\yii.php(45): CApplication->run()
+#3 C:\wamp\www\platform\01_front\index.php(18): Yii::createExtendWebApplication('C:\wamp\www\pla...')
+#4 {main}
+REQUEST_URI=/img/avatar2.png
+HTTP_REFERER=http://platform.dev/
+---
+2015/05/25 08:24:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/adminlte/assets/js/plugins/bootstrap.min.js".' in C:\wamp\www\platform\03_library\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\platform\03_library\web\CWebApplication.php(142): CWebApplication->runController('themes/adminlte...')
+#1 C:\wamp\www\platform\03_library\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\platform\03_library\yii.php(45): CApplication->run()
+#3 C:\wamp\www\platform\01_front\index.php(18): Yii::createExtendWebApplication('C:\wamp\www\pla...')
+#4 {main}
+REQUEST_URI=/themes/adminlte/assets/js/plugins/bootstrap.min.js
+HTTP_REFERER=http://platform.dev/
+---
+2015/05/25 08:24:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/adminlte/assets/js/plugins/AdminLTE/app.js".' in C:\wamp\www\platform\03_library\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\platform\03_library\web\CWebApplication.php(142): CWebApplication->runController('themes/adminlte...')
+#1 C:\wamp\www\platform\03_library\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\platform\03_library\yii.php(45): CApplication->run()
+#3 C:\wamp\www\platform\01_front\index.php(18): Yii::createExtendWebApplication('C:\wamp\www\pla...')
+#4 {main}
+REQUEST_URI=/themes/adminlte/assets/js/plugins/AdminLTE/app.js
+HTTP_REFERER=http://platform.dev/
+---
+2015/05/25 08:24:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\wamp\www\platform\03_library\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\platform\03_library\web\CWebApplication.php(142): CWebApplication->runController('img/avatar.png')
+#1 C:\wamp\www\platform\03_library\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\platform\03_library\yii.php(45): CApplication->run()
+#3 C:\wamp\www\platform\01_front\index.php(18): Yii::createExtendWebApplication('C:\wamp\www\pla...')
+#4 {main}
+REQUEST_URI=/img/avatar.png
+HTTP_REFERER=http://platform.dev/
+---
+2015/05/25 08:24:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar3.png".' in C:\wamp\www\platform\03_library\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\platform\03_library\web\CWebApplication.php(142): CWebApplication->runController('img/avatar3.png')
+#1 C:\wamp\www\platform\03_library\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\platform\03_library\yii.php(45): CApplication->run()
+#3 C:\wamp\www\platform\01_front\index.php(18): Yii::createExtendWebApplication('C:\wamp\www\pla...')
+#4 {main}
+REQUEST_URI=/img/avatar3.png
+HTTP_REFERER=http://platform.dev/
+---
+2015/05/25 08:24:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/adminlte/assets/js/plugins/bootstrap.min.js".' in C:\wamp\www\platform\03_library\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\platform\03_library\web\CWebApplication.php(142): CWebApplication->runController('themes/adminlte...')
+#1 C:\wamp\www\platform\03_library\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\platform\03_library\yii.php(45): CApplication->run()
+#3 C:\wamp\www\platform\01_front\index.php(18): Yii::createExtendWebApplication('C:\wamp\www\pla...')
+#4 {main}
+REQUEST_URI=/themes/adminlte/assets/js/plugins/bootstrap.min.js
+HTTP_REFERER=http://platform.dev/
+---
+2015/05/25 08:24:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/adminlte/assets/js/plugins/AdminLTE/app.js".' in C:\wamp\www\platform\03_library\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\platform\03_library\web\CWebApplication.php(142): CWebApplication->runController('themes/adminlte...')
+#1 C:\wamp\www\platform\03_library\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\platform\03_library\yii.php(45): CApplication->run()
+#3 C:\wamp\www\platform\01_front\index.php(18): Yii::createExtendWebApplication('C:\wamp\www\pla...')
+#4 {main}
+REQUEST_URI=/themes/adminlte/assets/js/plugins/AdminLTE/app.js
+HTTP_REFERER=http://platform.dev/
+---
+2015/05/25 08:28:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/adminlte/assets/js/plugins/jquery.min.js".' in C:\wamp\www\platform\03_library\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\platform\03_library\web\CWebApplication.php(142): CWebApplication->runController('themes/adminlte...')
+#1 C:\wamp\www\platform\03_library\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\platform\03_library\yii.php(45): CApplication->run()
+#3 C:\wamp\www\platform\01_front\index.php(18): Yii::createExtendWebApplication('C:\wamp\www\pla...')
+#4 {main}
+REQUEST_URI=/themes/adminlte/assets/js/plugins/jquery.min.js
+HTTP_REFERER=http://platform.dev/
+---
+2015/05/25 08:28:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/adminlte/assets/js/plugins/bootstrap.min.js".' in C:\wamp\www\platform\03_library\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\platform\03_library\web\CWebApplication.php(142): CWebApplication->runController('themes/adminlte...')
+#1 C:\wamp\www\platform\03_library\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\platform\03_library\yii.php(45): CApplication->run()
+#3 C:\wamp\www\platform\01_front\index.php(18): Yii::createExtendWebApplication('C:\wamp\www\pla...')
+#4 {main}
+REQUEST_URI=/themes/adminlte/assets/js/plugins/bootstrap.min.js
+HTTP_REFERER=http://platform.dev/
+---
+2015/05/25 08:28:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/adminlte/assets/js/plugins/AdminLTE/app.js".' in C:\wamp\www\platform\03_library\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\platform\03_library\web\CWebApplication.php(142): CWebApplication->runController('themes/adminlte...')
+#1 C:\wamp\www\platform\03_library\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\platform\03_library\yii.php(45): CApplication->run()
+#3 C:\wamp\www\platform\01_front\index.php(18): Yii::createExtendWebApplication('C:\wamp\www\pla...')
+#4 {main}
+REQUEST_URI=/themes/adminlte/assets/js/plugins/AdminLTE/app.js
+HTTP_REFERER=http://platform.dev/
+---
+2015/05/25 08:28:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/adminlte/assets/js/plugins/bootstrap.min.js".' in C:\wamp\www\platform\03_library\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\platform\03_library\web\CWebApplication.php(142): CWebApplication->runController('themes/adminlte...')
+#1 C:\wamp\www\platform\03_library\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\platform\03_library\yii.php(45): CApplication->run()
+#3 C:\wamp\www\platform\01_front\index.php(18): Yii::createExtendWebApplication('C:\wamp\www\pla...')
+#4 {main}
+REQUEST_URI=/themes/adminlte/assets/js/plugins/bootstrap.min.js
+HTTP_REFERER=http://platform.dev/
+---
+2015/05/25 08:28:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/adminlte/assets/js/plugins/AdminLTE/app.js".' in C:\wamp\www\platform\03_library\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\platform\03_library\web\CWebApplication.php(142): CWebApplication->runController('themes/adminlte...')
+#1 C:\wamp\www\platform\03_library\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\platform\03_library\yii.php(45): CApplication->run()
+#3 C:\wamp\www\platform\01_front\index.php(18): Yii::createExtendWebApplication('C:\wamp\www\pla...')
+#4 {main}
+REQUEST_URI=/themes/adminlte/assets/js/plugins/AdminLTE/app.js
+HTTP_REFERER=http://platform.dev/
+---
+2015/05/25 08:28:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar3.png".' in C:\wamp\www\platform\03_library\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\platform\03_library\web\CWebApplication.php(142): CWebApplication->runController('img/avatar3.png')
+#1 C:\wamp\www\platform\03_library\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\platform\03_library\yii.php(45): CApplication->run()
+#3 C:\wamp\www\platform\01_front\index.php(18): Yii::createExtendWebApplication('C:\wamp\www\pla...')
+#4 {main}
+REQUEST_URI=/img/avatar3.png
+HTTP_REFERER=http://platform.dev/
+---
+2015/05/25 08:28:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\wamp\www\platform\03_library\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\platform\03_library\web\CWebApplication.php(142): CWebApplication->runController('img/avatar.png')
+#1 C:\wamp\www\platform\03_library\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\platform\03_library\yii.php(45): CApplication->run()
+#3 C:\wamp\www\platform\01_front\index.php(18): Yii::createExtendWebApplication('C:\wamp\www\pla...')
+#4 {main}
+REQUEST_URI=/img/avatar.png
+HTTP_REFERER=http://platform.dev/
+---
+2015/05/25 08:28:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar2.png".' in C:\wamp\www\platform\03_library\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\platform\03_library\web\CWebApplication.php(142): CWebApplication->runController('img/avatar2.png')
+#1 C:\wamp\www\platform\03_library\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\platform\03_library\yii.php(45): CApplication->run()
+#3 C:\wamp\www\platform\01_front\index.php(18): Yii::createExtendWebApplication('C:\wamp\www\pla...')
+#4 {main}
+REQUEST_URI=/img/avatar2.png
+HTTP_REFERER=http://platform.dev/
+---
+2015/05/25 08:28:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar3.png".' in C:\wamp\www\platform\03_library\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\platform\03_library\web\CWebApplication.php(142): CWebApplication->runController('img/avatar3.png')
+#1 C:\wamp\www\platform\03_library\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\platform\03_library\yii.php(45): CApplication->run()
+#3 C:\wamp\www\platform\01_front\index.php(18): Yii::createExtendWebApplication('C:\wamp\www\pla...')
+#4 {main}
+REQUEST_URI=/img/avatar3.png
+HTTP_REFERER=http://platform.dev/
+---
+2015/05/25 08:28:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/adminlte/assets/js/plugins/bootstrap.min.js".' in C:\wamp\www\platform\03_library\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\platform\03_library\web\CWebApplication.php(142): CWebApplication->runController('themes/adminlte...')
+#1 C:\wamp\www\platform\03_library\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\platform\03_library\yii.php(45): CApplication->run()
+#3 C:\wamp\www\platform\01_front\index.php(18): Yii::createExtendWebApplication('C:\wamp\www\pla...')
+#4 {main}
+REQUEST_URI=/themes/adminlte/assets/js/plugins/bootstrap.min.js
+HTTP_REFERER=http://platform.dev/
+---
+2015/05/25 08:28:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar2.png".' in C:\wamp\www\platform\03_library\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\platform\03_library\web\CWebApplication.php(142): CWebApplication->runController('img/avatar2.png')
+#1 C:\wamp\www\platform\03_library\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\platform\03_library\yii.php(45): CApplication->run()
+#3 C:\wamp\www\platform\01_front\index.php(18): Yii::createExtendWebApplication('C:\wamp\www\pla...')
+#4 {main}
+REQUEST_URI=/img/avatar2.png
+HTTP_REFERER=http://platform.dev/
+---
+2015/05/25 08:28:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\wamp\www\platform\03_library\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\platform\03_library\web\CWebApplication.php(142): CWebApplication->runController('img/avatar.png')
+#1 C:\wamp\www\platform\03_library\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\platform\03_library\yii.php(45): CApplication->run()
+#3 C:\wamp\www\platform\01_front\index.php(18): Yii::createExtendWebApplication('C:\wamp\www\pla...')
+#4 {main}
+REQUEST_URI=/img/avatar.png
+HTTP_REFERER=http://platform.dev/
+---
+2015/05/25 08:28:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/adminlte/assets/js/plugins/jquery.min.js".' in C:\wamp\www\platform\03_library\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\platform\03_library\web\CWebApplication.php(142): CWebApplication->runController('themes/adminlte...')
+#1 C:\wamp\www\platform\03_library\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\platform\03_library\yii.php(45): CApplication->run()
+#3 C:\wamp\www\platform\01_front\index.php(18): Yii::createExtendWebApplication('C:\wamp\www\pla...')
+#4 {main}
+REQUEST_URI=/themes/adminlte/assets/js/plugins/jquery.min.js
+HTTP_REFERER=http://platform.dev/
+---
+2015/05/25 08:28:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/adminlte/assets/js/plugins/AdminLTE/app.js".' in C:\wamp\www\platform\03_library\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\platform\03_library\web\CWebApplication.php(142): CWebApplication->runController('themes/adminlte...')
+#1 C:\wamp\www\platform\03_library\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\platform\03_library\yii.php(45): CApplication->run()
+#3 C:\wamp\www\platform\01_front\index.php(18): Yii::createExtendWebApplication('C:\wamp\www\pla...')
+#4 {main}
+REQUEST_URI=/themes/adminlte/assets/js/plugins/AdminLTE/app.js
+HTTP_REFERER=http://platform.dev/
+---
+2015/05/25 08:28:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/adminlte/assets/js/plugins/bootstrap.min.js".' in C:\wamp\www\platform\03_library\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\platform\03_library\web\CWebApplication.php(142): CWebApplication->runController('themes/adminlte...')
+#1 C:\wamp\www\platform\03_library\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\platform\03_library\yii.php(45): CApplication->run()
+#3 C:\wamp\www\platform\01_front\index.php(18): Yii::createExtendWebApplication('C:\wamp\www\pla...')
+#4 {main}
+REQUEST_URI=/themes/adminlte/assets/js/plugins/bootstrap.min.js
+HTTP_REFERER=http://platform.dev/
+---
+2015/05/25 08:28:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/adminlte/assets/js/plugins/AdminLTE/app.js".' in C:\wamp\www\platform\03_library\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\platform\03_library\web\CWebApplication.php(142): CWebApplication->runController('themes/adminlte...')
+#1 C:\wamp\www\platform\03_library\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\platform\03_library\yii.php(45): CApplication->run()
+#3 C:\wamp\www\platform\01_front\index.php(18): Yii::createExtendWebApplication('C:\wamp\www\pla...')
+#4 {main}
+REQUEST_URI=/themes/adminlte/assets/js/plugins/AdminLTE/app.js
+HTTP_REFERER=http://platform.dev/
+---
+2015/05/25 08:28:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "pages/widgets.html".' in C:\wamp\www\platform\03_library\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\platform\03_library\web\CWebApplication.php(142): CWebApplication->runController('pages/widgets.h...')
+#1 C:\wamp\www\platform\03_library\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\platform\03_library\yii.php(45): CApplication->run()
+#3 C:\wamp\www\platform\01_front\index.php(18): Yii::createExtendWebApplication('C:\wamp\www\pla...')
+#4 {main}
+REQUEST_URI=/pages/widgets.html
+HTTP_REFERER=http://platform.dev/
+---
+2015/05/25 08:32:32 [error] [exception.PHPTAL_ParserException] exception 'PHPTAL_ParserException' with message 'Tag closure mismatch, expected < /meta > (opened in line 6) but found < /head >' in C:\wamp\www\platform\01_front\themes\adminlte\views\layouts\main.html:32
+Stack trace:
+#0 C:\wamp\www\platform\01_front\protected\vendors\phptal\PHPTAL\Dom\SaxXmlParser.php(194): PHPTAL_Dom_PHPTALDocumentBuilder->onElementClose('head')
+#1 C:\wamp\www\platform\01_front\protected\vendors\phptal\PHPTAL.php(1113): PHPTAL_Dom_SaxXmlParser->parseString(Object(PHPTAL_Dom_PHPTALDocumentBuilder), '<!DOCTYPE html>...', 'C:\wamp\www\pla...')
+#2 C:\wamp\www\platform\01_front\protected\vendors\phptal\PHPTAL.php(834): PHPTAL->parse()
+#3 C:\wamp\www\platform\01_front\protected\vendors\phptal\PHPTAL.php(667): PHPTAL->prepare()
+#4 C:\wamp\www\platform\01_front\protected\extensions\PHPTALViewRenderer.php(50): PHPTAL->execute()
+#5 C:\wamp\www\platform\03_library\web\CBaseController.php(94): PHPTALViewRenderer->renderFile(Object(SiteController), 'C:\wamp\www\pla...', Array, true)
+#6 C:\wamp\www\platform\01_front\protected\components\Controller.php(43): CBaseController->renderFile('C:\wamp\www\pla...', Array, true)
+#7 C:\wamp\www\platform\01_front\protected\controllers\SiteController.php(11): Controller->render('index')
+#8 C:\wamp\www\platform\03_library\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#9 C:\wamp\www\platform\03_library\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 C:\wamp\www\platform\03_library\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#11 C:\wamp\www\platform\03_library\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\wamp\www\platform\03_library\web\CWebApplication.php(283): CController->run('')
+#13 C:\wamp\www\platform\03_library\web\CWebApplication.php(142): CWebApplication->runController('')
+#14 C:\wamp\www\platform\03_library\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\wamp\www\platform\03_library\yii.php(45): CApplication->run()
+#16 C:\wamp\www\platform\01_front\index.php(18): Yii::createExtendWebApplication('C:\wamp\www\pla...')
+#17 {main}
+REQUEST_URI=/
+---
+2015/05/25 08:32:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar3.png".' in C:\wamp\www\platform\03_library\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\platform\03_library\web\CWebApplication.php(142): CWebApplication->runController('img/avatar3.png')
+#1 C:\wamp\www\platform\03_library\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\platform\03_library\yii.php(45): CApplication->run()
+#3 C:\wamp\www\platform\01_front\index.php(18): Yii::createExtendWebApplication('C:\wamp\www\pla...')
+#4 {main}
+REQUEST_URI=/img/avatar3.png
+HTTP_REFERER=http://platform.dev/
+---
+2015/05/25 08:32:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\wamp\www\platform\03_library\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\platform\03_library\web\CWebApplication.php(142): CWebApplication->runController('img/avatar.png')
+#1 C:\wamp\www\platform\03_library\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\platform\03_library\yii.php(45): CApplication->run()
+#3 C:\wamp\www\platform\01_front\index.php(18): Yii::createExtendWebApplication('C:\wamp\www\pla...')
+#4 {main}
+REQUEST_URI=/img/avatar.png
+HTTP_REFERER=http://platform.dev/
+---
+2015/05/25 08:32:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar2.png".' in C:\wamp\www\platform\03_library\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\platform\03_library\web\CWebApplication.php(142): CWebApplication->runController('img/avatar2.png')
+#1 C:\wamp\www\platform\03_library\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\platform\03_library\yii.php(45): CApplication->run()
+#3 C:\wamp\www\platform\01_front\index.php(18): Yii::createExtendWebApplication('C:\wamp\www\pla...')
+#4 {main}
+REQUEST_URI=/img/avatar2.png
+HTTP_REFERER=http://platform.dev/
+---
+2015/05/25 08:33:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar2.png".' in C:\wamp\www\platform\03_library\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\platform\03_library\web\CWebApplication.php(142): CWebApplication->runController('img/avatar2.png')
+#1 C:\wamp\www\platform\03_library\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\platform\03_library\yii.php(45): CApplication->run()
+#3 C:\wamp\www\platform\01_front\index.php(18): Yii::createExtendWebApplication('C:\wamp\www\pla...')
+#4 {main}
+REQUEST_URI=/img/avatar2.png
+HTTP_REFERER=http://platform.dev/
+---
+2015/05/25 08:33:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar3.png".' in C:\wamp\www\platform\03_library\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\platform\03_library\web\CWebApplication.php(142): CWebApplication->runController('img/avatar3.png')
+#1 C:\wamp\www\platform\03_library\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\platform\03_library\yii.php(45): CApplication->run()
+#3 C:\wamp\www\platform\01_front\index.php(18): Yii::createExtendWebApplication('C:\wamp\www\pla...')
+#4 {main}
+REQUEST_URI=/img/avatar3.png
+HTTP_REFERER=http://platform.dev/
+---
+2015/05/25 08:33:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\wamp\www\platform\03_library\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\platform\03_library\web\CWebApplication.php(142): CWebApplication->runController('img/avatar.png')
+#1 C:\wamp\www\platform\03_library\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\platform\03_library\yii.php(45): CApplication->run()
+#3 C:\wamp\www\platform\01_front\index.php(18): Yii::createExtendWebApplication('C:\wamp\www\pla...')
+#4 {main}
+REQUEST_URI=/img/avatar.png
+HTTP_REFERER=http://platform.dev/
+---
+2015/05/25 08:33:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/adminlte/assets/js/jquery.min.map".' in C:\wamp\www\platform\03_library\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\platform\03_library\web\CWebApplication.php(142): CWebApplication->runController('themes/adminlte...')
+#1 C:\wamp\www\platform\03_library\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\platform\03_library\yii.php(45): CApplication->run()
+#3 C:\wamp\www\platform\01_front\index.php(18): Yii::createExtendWebApplication('C:\wamp\www\pla...')
+#4 {main}
+REQUEST_URI=/themes/adminlte/assets/js/jquery.min.map
+---
+2015/05/25 08:36:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar3.png".' in C:\wamp\www\platform\03_library\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\platform\03_library\web\CWebApplication.php(142): CWebApplication->runController('img/avatar3.png')
+#1 C:\wamp\www\platform\03_library\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\platform\03_library\yii.php(45): CApplication->run()
+#3 C:\wamp\www\platform\01_front\index.php(18): Yii::createExtendWebApplication('C:\wamp\www\pla...')
+#4 {main}
+REQUEST_URI=/img/avatar3.png
+HTTP_REFERER=http://platform.dev/
+---
+2015/05/25 08:36:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\wamp\www\platform\03_library\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\platform\03_library\web\CWebApplication.php(142): CWebApplication->runController('img/avatar.png')
+#1 C:\wamp\www\platform\03_library\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\platform\03_library\yii.php(45): CApplication->run()
+#3 C:\wamp\www\platform\01_front\index.php(18): Yii::createExtendWebApplication('C:\wamp\www\pla...')
+#4 {main}
+REQUEST_URI=/img/avatar.png
+HTTP_REFERER=http://platform.dev/
+---
+2015/05/25 08:36:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar2.png".' in C:\wamp\www\platform\03_library\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\platform\03_library\web\CWebApplication.php(142): CWebApplication->runController('img/avatar2.png')
+#1 C:\wamp\www\platform\03_library\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\platform\03_library\yii.php(45): CApplication->run()
+#3 C:\wamp\www\platform\01_front\index.php(18): Yii::createExtendWebApplication('C:\wamp\www\pla...')
+#4 {main}
+REQUEST_URI=/img/avatar2.png
+HTTP_REFERER=http://platform.dev/
+---
+2015/05/25 08:36:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar3.png".' in C:\wamp\www\platform\03_library\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\platform\03_library\web\CWebApplication.php(142): CWebApplication->runController('img/avatar3.png')
+#1 C:\wamp\www\platform\03_library\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\platform\03_library\yii.php(45): CApplication->run()
+#3 C:\wamp\www\platform\01_front\index.php(18): Yii::createExtendWebApplication('C:\wamp\www\pla...')
+#4 {main}
+REQUEST_URI=/img/avatar3.png
+HTTP_REFERER=http://platform.dev/
+---
+2015/05/25 08:36:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\wamp\www\platform\03_library\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\platform\03_library\web\CWebApplication.php(142): CWebApplication->runController('img/avatar.png')
+#1 C:\wamp\www\platform\03_library\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\platform\03_library\yii.php(45): CApplication->run()
+#3 C:\wamp\www\platform\01_front\index.php(18): Yii::createExtendWebApplication('C:\wamp\www\pla...')
+#4 {main}
+REQUEST_URI=/img/avatar.png
+HTTP_REFERER=http://platform.dev/
+---
+2015/05/25 08:36:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar2.png".' in C:\wamp\www\platform\03_library\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\platform\03_library\web\CWebApplication.php(142): CWebApplication->runController('img/avatar2.png')
+#1 C:\wamp\www\platform\03_library\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\platform\03_library\yii.php(45): CApplication->run()
+#3 C:\wamp\www\platform\01_front\index.php(18): Yii::createExtendWebApplication('C:\wamp\www\pla...')
+#4 {main}
+REQUEST_URI=/img/avatar2.png
+HTTP_REFERER=http://platform.dev/
+---
+2015/05/25 08:37:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "index.html".' in C:\wamp\www\platform\03_library\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\platform\03_library\web\CWebApplication.php(142): CWebApplication->runController('index.html')
+#1 C:\wamp\www\platform\03_library\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\platform\03_library\yii.php(45): CApplication->run()
+#3 C:\wamp\www\platform\01_front\index.php(18): Yii::createExtendWebApplication('C:\wamp\www\pla...')
+#4 {main}
+REQUEST_URI=/index.html
+HTTP_REFERER=http://platform.dev/
+---
+2015/05/25 08:37:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar3.png".' in C:\wamp\www\platform\03_library\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\platform\03_library\web\CWebApplication.php(142): CWebApplication->runController('img/avatar3.png')
+#1 C:\wamp\www\platform\03_library\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\platform\03_library\yii.php(45): CApplication->run()
+#3 C:\wamp\www\platform\01_front\index.php(18): Yii::createExtendWebApplication('C:\wamp\www\pla...')
+#4 {main}
+REQUEST_URI=/img/avatar3.png
+HTTP_REFERER=http://platform.dev/
+---
+2015/05/25 08:37:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\wamp\www\platform\03_library\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\platform\03_library\web\CWebApplication.php(142): CWebApplication->runController('img/avatar.png')
+#1 C:\wamp\www\platform\03_library\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\platform\03_library\yii.php(45): CApplication->run()
+#3 C:\wamp\www\platform\01_front\index.php(18): Yii::createExtendWebApplication('C:\wamp\www\pla...')
+#4 {main}
+REQUEST_URI=/img/avatar.png
+HTTP_REFERER=http://platform.dev/
+---
+2015/05/25 08:37:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar2.png".' in C:\wamp\www\platform\03_library\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\platform\03_library\web\CWebApplication.php(142): CWebApplication->runController('img/avatar2.png')
+#1 C:\wamp\www\platform\03_library\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\platform\03_library\yii.php(45): CApplication->run()
+#3 C:\wamp\www\platform\01_front\index.php(18): Yii::createExtendWebApplication('C:\wamp\www\pla...')
+#4 {main}
+REQUEST_URI=/img/avatar2.png
+HTTP_REFERER=http://platform.dev/
+---
+2015/05/25 08:38:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "index.html".' in C:\wamp\www\platform\03_library\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\platform\03_library\web\CWebApplication.php(142): CWebApplication->runController('index.html')
+#1 C:\wamp\www\platform\03_library\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\platform\03_library\yii.php(45): CApplication->run()
+#3 C:\wamp\www\platform\01_front\index.php(18): Yii::createExtendWebApplication('C:\wamp\www\pla...')
+#4 {main}
+REQUEST_URI=/index.html
+HTTP_REFERER=http://platform.dev/
+---
+2015/05/25 08:40:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar3.png".' in C:\wamp\www\platform\03_library\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\platform\03_library\web\CWebApplication.php(142): CWebApplication->runController('img/avatar3.png')
+#1 C:\wamp\www\platform\03_library\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\platform\03_library\yii.php(45): CApplication->run()
+#3 C:\wamp\www\platform\01_front\index.php(18): Yii::createExtendWebApplication('C:\wamp\www\pla...')
+#4 {main}
+REQUEST_URI=/img/avatar3.png
+HTTP_REFERER=http://platform.dev/?q=adad&seach=
+---
+2015/05/25 08:40:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar2.png".' in C:\wamp\www\platform\03_library\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\platform\03_library\web\CWebApplication.php(142): CWebApplication->runController('img/avatar2.png')
+#1 C:\wamp\www\platform\03_library\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\platform\03_library\yii.php(45): CApplication->run()
+#3 C:\wamp\www\platform\01_front\index.php(18): Yii::createExtendWebApplication('C:\wamp\www\pla...')
+#4 {main}
+REQUEST_URI=/img/avatar2.png
+HTTP_REFERER=http://platform.dev/?q=adad&seach=
+---
+2015/05/25 08:40:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\wamp\www\platform\03_library\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\platform\03_library\web\CWebApplication.php(142): CWebApplication->runController('img/avatar.png')
+#1 C:\wamp\www\platform\03_library\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\platform\03_library\yii.php(45): CApplication->run()
+#3 C:\wamp\www\platform\01_front\index.php(18): Yii::createExtendWebApplication('C:\wamp\www\pla...')
+#4 {main}
+REQUEST_URI=/img/avatar.png
+HTTP_REFERER=http://platform.dev/?q=adad&seach=
+---
+2015/05/25 08:43:30 [error] [exception.PHPTAL_ParserException] exception 'PHPTAL_ParserException' with message 'Tag closure mismatch, expected < /meta > (opened in line 6) but found < /head >' in C:\wamp\www\platform\01_front\themes\adminlte\views\layouts\login.html:20
+Stack trace:
+#0 C:\wamp\www\platform\01_front\protected\vendors\phptal\PHPTAL\Dom\SaxXmlParser.php(194): PHPTAL_Dom_PHPTALDocumentBuilder->onElementClose('head')
+#1 C:\wamp\www\platform\01_front\protected\vendors\phptal\PHPTAL.php(1113): PHPTAL_Dom_SaxXmlParser->parseString(Object(PHPTAL_Dom_PHPTALDocumentBuilder), '<!DOCTYPE html>...', 'C:\wamp\www\pla...')
+#2 C:\wamp\www\platform\01_front\protected\vendors\phptal\PHPTAL.php(834): PHPTAL->parse()
+#3 C:\wamp\www\platform\01_front\protected\vendors\phptal\PHPTAL.php(667): PHPTAL->prepare()
+#4 C:\wamp\www\platform\01_front\protected\extensions\PHPTALViewRenderer.php(50): PHPTAL->execute()
+#5 C:\wamp\www\platform\03_library\web\CBaseController.php(94): PHPTALViewRenderer->renderFile(Object(SiteController), 'C:\wamp\www\pla...', Array, true)
+#6 C:\wamp\www\platform\01_front\protected\components\Controller.php(43): CBaseController->renderFile('C:\wamp\www\pla...', Array, true)
+#7 C:\wamp\www\platform\01_front\protected\controllers\SiteController.php(17): Controller->render('login')
+#8 C:\wamp\www\platform\03_library\web\actions\CInlineAction.php(50): SiteController->actionLogin()
+#9 C:\wamp\www\platform\03_library\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 C:\wamp\www\platform\03_library\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#11 C:\wamp\www\platform\03_library\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\wamp\www\platform\03_library\web\CController.php(748): CController->run('login')
+#13 C:\wamp\www\platform\01_front\protected\controllers\SiteController.php(12): CController->forward('login')
+#14 C:\wamp\www\platform\03_library\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#15 C:\wamp\www\platform\03_library\web\CController.php(309): CInlineAction->runWithParams(Array)
+#16 C:\wamp\www\platform\03_library\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#17 C:\wamp\www\platform\03_library\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\wamp\www\platform\03_library\web\CWebApplication.php(283): CController->run('')
+#19 C:\wamp\www\platform\03_library\web\CWebApplication.php(142): CWebApplication->runController('')
+#20 C:\wamp\www\platform\03_library\base\CApplication.php(162): CWebApplication->processRequest()
+#21 C:\wamp\www\platform\03_library\yii.php(45): CApplication->run()
+#22 C:\wamp\www\platform\01_front\index.php(18): Yii::createExtendWebApplication('C:\wamp\www\pla...')
+#23 {main}
+REQUEST_URI=/?q=adad&seach=
+HTTP_REFERER=http://platform.dev/
+---
+2015/05/25 08:44:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "index.html".' in C:\wamp\www\platform\03_library\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\platform\03_library\web\CWebApplication.php(142): CWebApplication->runController('index.html')
+#1 C:\wamp\www\platform\03_library\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\platform\03_library\yii.php(45): CApplication->run()
+#3 C:\wamp\www\platform\01_front\index.php(18): Yii::createExtendWebApplication('C:\wamp\www\pla...')
+#4 {main}
+REQUEST_URI=/index.html
+HTTP_REFERER=http://platform.dev/?q=adad&seach=
+---
+2015/05/25 08:46:27 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[42000] [1049] Unknown database 'sfp_platform'' in C:\wamp\www\platform\03_library\db\CDbConnection.php:382
+Stack trace:
+#0 C:\wamp\www\platform\03_library\db\CDbConnection.php(331): CDbConnection->open()
+#1 C:\wamp\www\platform\03_library\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 C:\wamp\www\platform\03_library\base\CModule.php(388): CDbConnection->init()
+#3 C:\wamp\www\platform\03_library\base\CModule.php(104): CModule->getComponent('db')
+#4 C:\wamp\www\platform\03_library\gii\generators\model\ModelCode.php(58): CModule->__get('db')
+#5 C:\wamp\www\platform\03_library\web\CFormModel.php(40): ModelCode->init()
+#6 C:\wamp\www\platform\03_library\gii\CCodeGenerator.php(154): CFormModel->__construct()
+#7 C:\wamp\www\platform\03_library\gii\CCodeGenerator.php(64): CCodeGenerator->prepare()
+#8 C:\wamp\www\platform\03_library\web\actions\CInlineAction.php(50): CCodeGenerator->actionIndex()
+#9 C:\wamp\www\platform\03_library\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 C:\wamp\www\platform\03_library\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#11 C:\wamp\www\platform\03_library\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\wamp\www\platform\03_library\web\CWebApplication.php(283): CController->run('')
+#13 C:\wamp\www\platform\03_library\web\CWebApplication.php(142): CWebApplication->runController('gii/model')
+#14 C:\wamp\www\platform\03_library\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\wamp\www\platform\03_library\yii.php(45): CApplication->run()
+#16 C:\wamp\www\platform\01_front\index.php(18): Yii::createExtendWebApplication('C:\wamp\www\pla...')
+#17 {main}
+REQUEST_URI=/gii/model
+HTTP_REFERER=http://platform.dev/gii/default/index
+---
