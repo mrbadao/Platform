@@ -25,13 +25,7 @@ class Controller extends CController
 
     public function init()
     {
-        $session = Yii::app()->session;
-
-        if($session->contains(self::SESS_KEY)){
-            $this->siteId = Yii::app()->session[self::SESS_KEY];
-            $theme = ContentThemes::model()->findByPk($this->siteId);
-            Yii::app()->theme = $theme->theme_domain;
-        }else Yii::app()->end();
+        Yii::app()->theme = 'adminlte';
 
         if (Yii::app()->params['requireSSL'] && (!isset($_SERVER['HTTPS']) || $_SERVER['HTTPS'] != "on")) {
             $redirect = "https://" . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];

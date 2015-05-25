@@ -12,14 +12,13 @@ return array(
         'gii'=>'gii',
         'gii/<controller:\w+>'=>'gii/<controller>',
         'gii/<controller:\w+>/<action:\w+>'=>'gii/<controller>/<action>',
-        array(
-            'class' => 'application.components.SiteUrlRule',
-            'connectionID' => 'db',
-        ),
+//        array(
+//            'class' => 'application.components.SiteUrlRule',
+//            'connectionID' => 'db',
+//        ),
         '<action:\w+>'=>'site/<action>',
         '<controller:\w+>/<id:\d+>'=>'<controller>/view',
         '<controller:\w+>/<action:\w+>/<id:\d+>'=>'<controller>/<action>',
-        '<controller:\w+>/<action:\w+>'=>'<controller>/<action>',
         '<controller:\w+>/<action:\w+>'=>'<controller>/<action>',
         '<module:\w+>/<action:\w+>'=>'<module>/default/<action>',
         '<module:\w+>/<controller:\w+>/<action:\w+>'=>'<module>/<controller>/<action>',

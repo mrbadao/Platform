@@ -563,9 +563,9 @@ class YiiBase
 	);
 }
 spl_autoload_register(array('YiiBase','autoload'));
-class Yii extends YiiBase
-{
-}
+//class Yii extends YiiBase
+//{
+//}
 class CComponent
 {
 	private $_e;
@@ -6738,6 +6738,7 @@ abstract class CActiveRecord extends CModel
 	public function init()
 	{
 	}
+
 	public function cache($duration, $dependency=null, $queryCount=1)
 	{
 		$this->getDbConnection()->cache($duration, $dependency, $queryCount);
@@ -9442,6 +9443,7 @@ class CStringValidator extends CValidator
 	public $tooLong;
 	public $allowEmpty=true;
 	public $encoding;
+
 	protected function validateAttribute($object,$attribute)
 	{
 		$value=$object->$attribute;

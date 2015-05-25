@@ -7,6 +7,7 @@ class ModelCode extends CCodeModel
 	public $tableName;
 	public $modelClass;
 	public $modelPath='application.models';
+	public $modelConfig='application.config.models';
 	public $baseClass='CActiveRecord';
 	public $buildRelations=true;
 
@@ -105,9 +106,17 @@ class ModelCode extends CCodeModel
 				'connectionId'=>$this->connectionId,
 			);
 			$this->files[]=new CCodeFile(
-				Yii::getPathOfAlias($this->modelPath).'/'.$className.'.php',
-				$this->render($templatePath.'/model.php', $params)
+				Yii::getPathOfAlias($this->modelConfig).'/'.$className.'.php',
+				$this->render($templatePath.'/modelConfig.php', $params)
 			);
+            $this->files[]=new CCodeFile(
+                Yii::getPathOfAlias($this->modelPath).'/'.$className.'.php',
+                $this->render($templatePath.'/modelExtend.php', $params)
+            );
+//            $this->files[]=new CCodeFile(
+//                Yii::getPathOfAlias($this->modelPath).'/'.$className.'.php',
+//                $this->render($templatePath.'/model.php', $params)
+//            );
 		}
 	}
 

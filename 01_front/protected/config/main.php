@@ -43,17 +43,21 @@ return array(
 
 		'urlManager'=>require(dirname(__FILE__) . '/urlManager/urlManager.php'),
 
-		'db'=>array(
-			'connectionString' => 'sqlite:'.dirname(__FILE__).'/../data/testdrive.db',
-		),
+        'viewRenderer' => array(
+            'class' => 'ext.PHPTALViewRenderer',
+            'fileExtension' => '.html',
+        ),
+
 		// uncomment the following to use a MySQL database
-        'db'=> require(dirname(__FILE__) . '/database/sfp_platform.php'),
+        'db'=> require(dirname(__FILE__) . '/database/sfp_service_staff.php'),
+        'dbSetting'=> require(dirname(__FILE__) . '/database/sfp_service_setting.php'),
+        'dbSession'=> require(dirname(__FILE__) . '/database/sfp_service_session.php'),
 
         'session'=>array(
             'autoStart' => true,
             'class'=>'CDbHttpSession',
             'sessionTableName'=>'sessions',
-            //'cookieMode' => 'allow',
+            'connectionID'=>'dbSession',
         ),
 
 		'errorHandler'=>array(

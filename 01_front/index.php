@@ -1,9 +1,6 @@
 <?php
 
 
-// change the following paths if necessary
-$yii=dirname(__FILE__).'/../03_library/yii.php';
-$app=dirname(__FILE__).'/config/init.php';
 $rootUrl = "$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
 $path = explode('/',$rootUrl);
 
@@ -11,13 +8,11 @@ $path = explode('/',$rootUrl);
 defined('YII_DEBUG') or define('YII_DEBUG',true);
 // specify how many levels of call stack should be shown in each log message
 defined('YII_TRACE_LEVEL') or define('YII_TRACE_LEVEL',3);
+defined('ROOT_PATH') or define('ROOT_PATH',dirname(__FILE__));
+
+// change the following paths if necessary
+$yii=ROOT_PATH.'/../03_library/yii.php';
+$config = ROOT_PATH.'/protected/config/main.php';
 
 require_once($yii);
-require_once($app);
-
-
-$webApp= new BaseOnYiiWebApp(dirname(__FILE__).'/protected/config/main.php',$rootUrl);
-
-$app = Yii::createWebApplication($webApp->run());
-
-$app->run();
+Yii::createExtendWebApplication($config);
