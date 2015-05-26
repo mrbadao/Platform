@@ -679,3 +679,590 @@ Stack trace:
 REQUEST_URI=/gii/model
 HTTP_REFERER=http://platform.dev/gii/default/index
 ---
+2015/05/26 08:59:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\wamp\www\platform\03_library\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\platform\03_library\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\wamp\www\platform\03_library\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\platform\03_library\yii.php(45): CApplication->run()
+#3 C:\wamp\www\platform\01_front\index.php(18): Yii::createExtendWebApplication('C:\wamp\www\pla...')
+#4 {main}
+REQUEST_URI=/favicon.ico
+---
+2015/05/26 08:59:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\wamp\www\platform\03_library\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\platform\03_library\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\wamp\www\platform\03_library\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\platform\03_library\yii.php(45): CApplication->run()
+#3 C:\wamp\www\platform\01_front\index.php(18): Yii::createExtendWebApplication('C:\wamp\www\pla...')
+#4 {main}
+REQUEST_URI=/favicon.ico
+---
+2015/05/26 08:59:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "index.html".' in C:\wamp\www\platform\03_library\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\platform\03_library\web\CWebApplication.php(142): CWebApplication->runController('index.html')
+#1 C:\wamp\www\platform\03_library\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\platform\03_library\yii.php(45): CApplication->run()
+#3 C:\wamp\www\platform\01_front\index.php(18): Yii::createExtendWebApplication('C:\wamp\www\pla...')
+#4 {main}
+REQUEST_URI=/index.html
+HTTP_REFERER=http://platform.dev/site/login
+---
+2015/05/26 08:59:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "index.html".' in C:\wamp\www\platform\03_library\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\platform\03_library\web\CWebApplication.php(142): CWebApplication->runController('index.html')
+#1 C:\wamp\www\platform\03_library\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\platform\03_library\yii.php(45): CApplication->run()
+#3 C:\wamp\www\platform\01_front\index.php(18): Yii::createExtendWebApplication('C:\wamp\www\pla...')
+#4 {main}
+REQUEST_URI=/index.html
+HTTP_REFERER=http://platform.dev/site/login
+---
+2015/05/26 09:00:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "index.html".' in C:\wamp\www\platform\03_library\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\platform\03_library\web\CWebApplication.php(142): CWebApplication->runController('index.html')
+#1 C:\wamp\www\platform\03_library\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\platform\03_library\yii.php(45): CApplication->run()
+#3 C:\wamp\www\platform\01_front\index.php(18): Yii::createExtendWebApplication('C:\wamp\www\pla...')
+#4 {main}
+REQUEST_URI=/index.html
+HTTP_REFERER=http://platform.dev/site/login
+---
+2015/05/26 09:01:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "index.html".' in C:\wamp\www\platform\03_library\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\platform\03_library\web\CWebApplication.php(142): CWebApplication->runController('index.html')
+#1 C:\wamp\www\platform\03_library\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\platform\03_library\yii.php(45): CApplication->run()
+#3 C:\wamp\www\platform\01_front\index.php(18): Yii::createExtendWebApplication('C:\wamp\www\pla...')
+#4 {main}
+REQUEST_URI=/index.html
+HTTP_REFERER=http://platform.dev/site/login
+---
+2015/05/26 09:04:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar3.png".' in C:\wamp\www\platform\03_library\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\platform\03_library\web\CWebApplication.php(142): CWebApplication->runController('img/avatar3.png')
+#1 C:\wamp\www\platform\03_library\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\platform\03_library\yii.php(45): CApplication->run()
+#3 C:\wamp\www\platform\01_front\index.php(18): Yii::createExtendWebApplication('C:\wamp\www\pla...')
+#4 {main}
+REQUEST_URI=/img/avatar3.png
+HTTP_REFERER=http://platform.dev/
+---
+2015/05/26 09:04:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\wamp\www\platform\03_library\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\platform\03_library\web\CWebApplication.php(142): CWebApplication->runController('img/avatar.png')
+#1 C:\wamp\www\platform\03_library\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\platform\03_library\yii.php(45): CApplication->run()
+#3 C:\wamp\www\platform\01_front\index.php(18): Yii::createExtendWebApplication('C:\wamp\www\pla...')
+#4 {main}
+REQUEST_URI=/img/avatar.png
+HTTP_REFERER=http://platform.dev/
+---
+2015/05/26 09:04:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar2.png".' in C:\wamp\www\platform\03_library\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\platform\03_library\web\CWebApplication.php(142): CWebApplication->runController('img/avatar2.png')
+#1 C:\wamp\www\platform\03_library\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\platform\03_library\yii.php(45): CApplication->run()
+#3 C:\wamp\www\platform\01_front\index.php(18): Yii::createExtendWebApplication('C:\wamp\www\pla...')
+#4 {main}
+REQUEST_URI=/img/avatar2.png
+HTTP_REFERER=http://platform.dev/
+---
+2015/05/26 09:05:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\platform\03_library\web\CController.php:484
+Stack trace:
+#0 C:\wamp\www\platform\03_library\web\CController.php(271): CController->missingAction('img')
+#1 C:\wamp\www\platform\03_library\web\CWebApplication.php(283): CController->run('img')
+#2 C:\wamp\www\platform\03_library\web\CWebApplication.php(142): CWebApplication->runController('site/img/avatar...')
+#3 C:\wamp\www\platform\03_library\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\www\platform\03_library\yii.php(45): CApplication->run()
+#5 C:\wamp\www\platform\01_front\index.php(18): Yii::createExtendWebApplication('C:\wamp\www\pla...')
+#6 {main}
+REQUEST_URI=/site/img/avatar3.png
+HTTP_REFERER=http://platform.dev/site/index
+---
+2015/05/26 09:05:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\platform\03_library\web\CController.php:484
+Stack trace:
+#0 C:\wamp\www\platform\03_library\web\CController.php(271): CController->missingAction('img')
+#1 C:\wamp\www\platform\03_library\web\CWebApplication.php(283): CController->run('img')
+#2 C:\wamp\www\platform\03_library\web\CWebApplication.php(142): CWebApplication->runController('site/img/avatar...')
+#3 C:\wamp\www\platform\03_library\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\www\platform\03_library\yii.php(45): CApplication->run()
+#5 C:\wamp\www\platform\01_front\index.php(18): Yii::createExtendWebApplication('C:\wamp\www\pla...')
+#6 {main}
+REQUEST_URI=/site/img/avatar.png
+HTTP_REFERER=http://platform.dev/site/index
+---
+2015/05/26 09:05:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\platform\03_library\web\CController.php:484
+Stack trace:
+#0 C:\wamp\www\platform\03_library\web\CController.php(271): CController->missingAction('img')
+#1 C:\wamp\www\platform\03_library\web\CWebApplication.php(283): CController->run('img')
+#2 C:\wamp\www\platform\03_library\web\CWebApplication.php(142): CWebApplication->runController('site/img/avatar...')
+#3 C:\wamp\www\platform\03_library\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\www\platform\03_library\yii.php(45): CApplication->run()
+#5 C:\wamp\www\platform\01_front\index.php(18): Yii::createExtendWebApplication('C:\wamp\www\pla...')
+#6 {main}
+REQUEST_URI=/site/img/avatar2.png
+HTTP_REFERER=http://platform.dev/site/index
+---
+2015/05/26 09:08:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar3.png".' in C:\wamp\www\platform\03_library\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\platform\03_library\web\CWebApplication.php(142): CWebApplication->runController('img/avatar3.png')
+#1 C:\wamp\www\platform\03_library\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\platform\03_library\yii.php(45): CApplication->run()
+#3 C:\wamp\www\platform\01_front\index.php(18): Yii::createExtendWebApplication('C:\wamp\www\pla...')
+#4 {main}
+REQUEST_URI=/img/avatar3.png
+HTTP_REFERER=http://platform.dev/
+---
+2015/05/26 09:08:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\wamp\www\platform\03_library\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\platform\03_library\web\CWebApplication.php(142): CWebApplication->runController('img/avatar.png')
+#1 C:\wamp\www\platform\03_library\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\platform\03_library\yii.php(45): CApplication->run()
+#3 C:\wamp\www\platform\01_front\index.php(18): Yii::createExtendWebApplication('C:\wamp\www\pla...')
+#4 {main}
+REQUEST_URI=/img/avatar.png
+HTTP_REFERER=http://platform.dev/
+---
+2015/05/26 09:08:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar2.png".' in C:\wamp\www\platform\03_library\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\platform\03_library\web\CWebApplication.php(142): CWebApplication->runController('img/avatar2.png')
+#1 C:\wamp\www\platform\03_library\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\platform\03_library\yii.php(45): CApplication->run()
+#3 C:\wamp\www\platform\01_front\index.php(18): Yii::createExtendWebApplication('C:\wamp\www\pla...')
+#4 {main}
+REQUEST_URI=/img/avatar2.png
+HTTP_REFERER=http://platform.dev/
+---
+2015/05/26 09:09:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar3.png".' in C:\wamp\www\platform\03_library\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\platform\03_library\web\CWebApplication.php(142): CWebApplication->runController('img/avatar3.png')
+#1 C:\wamp\www\platform\03_library\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\platform\03_library\yii.php(45): CApplication->run()
+#3 C:\wamp\www\platform\01_front\index.php(18): Yii::createExtendWebApplication('C:\wamp\www\pla...')
+#4 {main}
+REQUEST_URI=/img/avatar3.png
+HTTP_REFERER=http://platform.dev/
+---
+2015/05/26 09:09:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\wamp\www\platform\03_library\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\platform\03_library\web\CWebApplication.php(142): CWebApplication->runController('img/avatar.png')
+#1 C:\wamp\www\platform\03_library\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\platform\03_library\yii.php(45): CApplication->run()
+#3 C:\wamp\www\platform\01_front\index.php(18): Yii::createExtendWebApplication('C:\wamp\www\pla...')
+#4 {main}
+REQUEST_URI=/img/avatar.png
+HTTP_REFERER=http://platform.dev/
+---
+2015/05/26 09:09:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar2.png".' in C:\wamp\www\platform\03_library\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\platform\03_library\web\CWebApplication.php(142): CWebApplication->runController('img/avatar2.png')
+#1 C:\wamp\www\platform\03_library\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\platform\03_library\yii.php(45): CApplication->run()
+#3 C:\wamp\www\platform\01_front\index.php(18): Yii::createExtendWebApplication('C:\wamp\www\pla...')
+#4 {main}
+REQUEST_URI=/img/avatar2.png
+HTTP_REFERER=http://platform.dev/
+---
+2015/05/26 09:31:38 [error] [exception.PHPTAL_TemplateException] From C:\wamp\www\platform\01_front\protected\vendors\phptal\PHPTAL.php around line 857
+exception 'PHPTAL_TemplateException' with message '<br />
+<font size='1'><table class='xdebug-error' dir='ltr' border='1' cellspacing='0' cellpadding='1'>
+<tr><th align='left' bgcolor='#f57900' colspan="5"><span style='background-color: #cc0000; color: #fce94f; font-size: x-large;'>( ! )</span> Parse error: syntax error, unexpected ')', expecting ',' or ';' in C:\wamp\www\platform\01_front\protected\vendors\phptal\PHPTAL.php(845) : C:\Windows\TEMP\tpl_556439be_login__vjlZ0ysEBJTM7X4vVXUUwQ.php on line <i>22</i></th></tr>
+<tr><th align='left' bgcolor='#e9b96e' colspan='5'>Call Stack</th></tr>
+<tr><th align='center' bgcolor='#eeeeec'>#</th><th align='left' bgcolor='#eeeeec'>Time</th><th align='left' bgcolor='#eeeeec'>Memory</th><th align='left' bgcolor='#eeeeec'>Function</th><th align='left' bgcolor='#eeeeec'>Location</th></tr>
+<tr><td bgcolor='#eeeeec' align='center'>1</td><td bgcolor='#eeeeec' align='center'>0.0009</td><td bgcolor='#eeeeec' align='right'>371624</td><td bgcolor='#eeeeec'>{main}(  )</td><td title='C:\wamp\www\platform\01_front\index.php' bgcolor='#eeeeec'>..\index.php<b>:</b>0</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>2</td><td bgcolor='#eeeeec' align='center'>0.0037</td><td bgcolor='#eeeeec' align='right'>657320</td><td bgcolor='#eeeeec'>Yii::createExtendWebApplication(  )</td><td title='C:\wamp\www\platform\01_front\index.php' bgcolor='#eeeeec'>..\index.php<b>:</b>18</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>3</td><td bgcolor='#eeeeec' align='center'>0.0174</td><td bgcolor='#eeeeec' align='right'>1990784</td><td bgcolor='#eeeeec'>CApplication->run(  )</td><td title='C:\wamp\www\platform\03_library\yii.php' bgcolor='#eeeeec'>..\yii.php<b>:</b>45</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>4</td><td bgcolor='#eeeeec' align='center'>0.0174</td><td bgcolor='#eeeeec' align='right'>1990784</td><td bgcolor='#eeeeec'>CWebApplication->processRequest(  )</td><td title='C:\wamp\www\platform\03_library\base\CApplication.php' bgcolor='#eeeeec'>..\CApplication.php<b>:</b>162</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>5</td><td bgcolor='#eeeeec' align='center'>0.0214</td><td bgcolor='#eeeeec' align='right'>2227520</td><td bgcolor='#eeeeec'>CWebApplication->runController(  )</td><td title='C:\wamp\www\platform\03_library\web\CWebApplication.php' bgcolor='#eeeeec'>..\CWebApplication.php<b>:</b>142</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>6</td><td bgcolor='#eeeeec' align='center'>0.0244</td><td bgcolor='#eeeeec' align='right'>2643520</td><td bgcolor='#eeeeec'>CController->run(  )</td><td title='C:\wamp\www\platform\03_library\web\CWebApplication.php' bgcolor='#eeeeec'>..\CWebApplication.php<b>:</b>283</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>7</td><td bgcolor='#eeeeec' align='center'>0.0249</td><td bgcolor='#eeeeec' align='right'>2685256</td><td bgcolor='#eeeeec'>CController->runActionWithFilters(  )</td><td title='C:\wamp\www\platform\03_library\web\CController.php' bgcolor='#eeeeec'>..\CController.php<b>:</b>266</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>8</td><td bgcolor='#eeeeec' align='center'>0.0249</td><td bgcolor='#eeeeec' align='right'>2685256</td><td bgcolor='#eeeeec'>CController->runAction(  )</td><td title='C:\wamp\www\platform\03_library\web\CController.php' bgcolor='#eeeeec'>..\CController.php<b>:</b>287</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>9</td><td bgcolor='#eeeeec' align='center'>0.0249</td><td bgcolor='#eeeeec' align='right'>2685256</td><td bgcolor='#eeeeec'>CInlineAction->runWithParams(  )</td><td title='C:\wamp\www\platform\03_library\web\CController.php' bgcolor='#eeeeec'>..\CController.php<b>:</b>309</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>10</td><td bgcolor='#eeeeec' align='center'>0.0250</td><td bgcolor='#eeeeec' align='right'>2685872</td><td bgcolor='#eeeeec'>SiteController->actionIndex(  )</td><td title='C:\wamp\www\platform\03_library\web\actions\CInlineAction.php' bgcolor='#eeeeec'>..\CInlineAction.php<b>:</b>50</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>11</td><td bgcolor='#eeeeec' align='center'>0.0412</td><td bgcolor='#eeeeec' align='right'>3903480</td><td bgcolor='#eeeeec'>CController->forward(  )</td><td title='C:\wamp\www\platform\01_front\protected\controllers\SiteController.php' bgcolor='#eeeeec'>..\SiteController.php<b>:</b>12</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>12</td><td bgcolor='#eeeeec' align='center'>0.0413</td><td bgcolor='#eeeeec' align='right'>3903512</td><td bgcolor='#eeeeec'>CController->run(  )</td><td title='C:\wamp\www\platform\03_library\web\CController.php' bgcolor='#eeeeec'>..\CController.php<b>:</b>748</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>13</td><td bgcolor='#eeeeec' align='center'>0.0413</td><td bgcolor='#eeeeec' align='right'>3904056</td><td bgcolor='#eeeeec'>CController->runActionWithFilters(  )</td><td title='C:\wamp\www\platform\03_library\web\CController.php' bgcolor='#eeeeec'>..\CController.php<b>:</b>266</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>14</td><td bgcolor='#eeeeec' align='center'>0.0413</td><td bgcolor='#eeeeec' align='right'>3904056</td><td bgcolor='#eeeeec'>CController->runAction(  )</td><td title='C:\wamp\www\platform\03_library\web\CController.php' bgcolor='#eeeeec'>..\CController.php<b>:</b>287</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>15</td><td bgcolor='#eeeeec' align='center'>0.0414</td><td bgcolor='#eeeeec' align='right'>3904056</td><td bgcolor='#eeeeec'>CInlineAction->runWithParams(  )</td><td title='C:\wamp\www\platform\03_library\web\CController.php' bgcolor='#eeeeec'>..\CController.php<b>:</b>309</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>16</td><td bgcolor='#eeeeec' align='center'>0.0414</td><td bgcolor='#eeeeec' align='right'>3904488</td><td bgcolor='#eeeeec'>SiteController->actionLogin(  )</td><td title='C:\wamp\www\platform\03_library\web\actions\CInlineAction.php' bgcolor='#eeeeec'>..\CInlineAction.php<b>:</b>50</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>17</td><td bgcolor='#eeeeec' align='center'>0.0431</td><td bgcolor='#eeeeec' align='right'>4084520</td><td bgcolor='#eeeeec'>Controller->render(  )</td><td title='C:\wamp\www\platform\01_front\protected\controllers\SiteController.php' bgcolor='#eeeeec'>..\SiteController.php<b>:</b>44</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>18</td><td bgcolor='#eeeeec' align='center'>0.0431</td><td bgcolor='#eeeeec' align='right'>4084584</td><td bgcolor='#eeeeec'>CController->renderPartial(  )</td><td title='C:\wamp\www\platform\01_front\protected\components\Controller.php' bgcolor='#eeeeec'>..\Controller.php<b>:</b>40</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>19</td><td bgcolor='#eeeeec' align='center'>0.0475</td><td bgcolor='#eeeeec' align='right'>4446616</td><td bgcolor='#eeeeec'>CBaseController->renderFile(  )</td><td title='C:\wamp\www\platform\03_library\web\CController.php' bgcolor='#eeeeec'>..\CController.php<b>:</b>870</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>20</td><td bgcolor='#eeeeec' align='center'>0.0481</td><td bgcolor='#eeeeec' align='right'>4510392</td><td bgcolor='#eeeeec'>PHPTALViewRenderer->renderFile(  )</td><td title='C:\wamp\www\platform\03_library\web\CBaseController.php' bgcolor='#eeeeec'>..\CBaseController.php<b>:</b>94</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>21</td><td bgcolor='#eeeeec' align='center'>0.0497</td><td bgcolor='#eeeeec' align='right'>4634024</td><td bgcolor='#eeeeec'>PHPTAL->execute(  )</td><td title='C:\wamp\www\platform\01_front\protected\extensions\PHPTALViewRenderer.php' bgcolor='#eeeeec'>..\PHPTALViewRenderer.php<b>:</b>50</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>22</td><td bgcolor='#eeeeec' align='center'>0.0497</td><td bgcolor='#eeeeec' align='right'>4634024</td><td bgcolor='#eeeeec'>PHPTAL->prepare(  )</td><td title='C:\wamp\www\platform\01_front\protected\vendors\phptal\PHPTAL.php' bgcolor='#eeeeec'>..\PHPTAL.php<b>:</b>667</td></tr>
+</table></font>' in C:\wamp\www\platform\01_front\protected\vendors\phptal\PHPTAL.php:857
+Stack trace:
+#0 C:\wamp\www\platform\01_front\protected\vendors\phptal\PHPTAL.php(667): PHPTAL->prepare()
+#1 C:\wamp\www\platform\01_front\protected\extensions\PHPTALViewRenderer.php(50): PHPTAL->execute()
+#2 C:\wamp\www\platform\03_library\web\CBaseController.php(94): PHPTALViewRenderer->renderFile(Object(SiteController), 'C:\wamp\www\pla...', Array, true)
+#3 C:\wamp\www\platform\03_library\web\CController.php(870): CBaseController->renderFile('C:\wamp\www\pla...', Array, true)
+#4 C:\wamp\www\platform\01_front\protected\components\Controller.php(40): CController->renderPartial('login', Array, true)
+#5 C:\wamp\www\platform\01_front\protected\controllers\SiteController.php(44): Controller->render('login', Array)
+#6 C:\wamp\www\platform\03_library\web\actions\CInlineAction.php(50): SiteController->actionLogin()
+#7 C:\wamp\www\platform\03_library\web\CController.php(309): CInlineAction->runWithParams(Array)
+#8 C:\wamp\www\platform\03_library\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#9 C:\wamp\www\platform\03_library\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\wamp\www\platform\03_library\web\CController.php(748): CController->run('login')
+#11 C:\wamp\www\platform\01_front\protected\controllers\SiteController.php(12): CController->forward('login')
+#12 C:\wamp\www\platform\03_library\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#13 C:\wamp\www\platform\03_library\web\CController.php(309): CInlineAction->runWithParams(Array)
+#14 C:\wamp\www\platform\03_library\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#15 C:\wamp\www\platform\03_library\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 C:\wamp\www\platform\03_library\web\CWebApplication.php(283): CController->run('')
+#17 C:\wamp\www\platform\03_library\web\CWebApplication.php(142): CWebApplication->runController('')
+#18 C:\wamp\www\platform\03_library\base\CApplication.php(162): CWebApplication->processRequest()
+#19 C:\wamp\www\platform\03_library\yii.php(45): CApplication->run()
+#20 C:\wamp\www\platform\01_front\index.php(18): Yii::createExtendWebApplication('C:\wamp\www\pla...')
+#21 {main}
+REQUEST_URI=/
+---
+2015/05/26 09:32:58 [error] [exception.PHPTAL_TemplateException] From C:\wamp\www\platform\01_front\protected\vendors\phptal\PHPTAL.php around line 857
+exception 'PHPTAL_TemplateException' with message '<br />
+<font size='1'><table class='xdebug-error' dir='ltr' border='1' cellspacing='0' cellpadding='1'>
+<tr><th align='left' bgcolor='#f57900' colspan="5"><span style='background-color: #cc0000; color: #fce94f; font-size: x-large;'>( ! )</span> Parse error: syntax error, unexpected ')', expecting ',' or ';' in C:\wamp\www\platform\01_front\protected\vendors\phptal\PHPTAL.php(845) : C:\Windows\TEMP\tpl_55643dc5_login__vjlZ0ysEBJTM7X4vVXUUwQ.php on line <i>22</i></th></tr>
+<tr><th align='left' bgcolor='#e9b96e' colspan='5'>Call Stack</th></tr>
+<tr><th align='center' bgcolor='#eeeeec'>#</th><th align='left' bgcolor='#eeeeec'>Time</th><th align='left' bgcolor='#eeeeec'>Memory</th><th align='left' bgcolor='#eeeeec'>Function</th><th align='left' bgcolor='#eeeeec'>Location</th></tr>
+<tr><td bgcolor='#eeeeec' align='center'>1</td><td bgcolor='#eeeeec' align='center'>0.0008</td><td bgcolor='#eeeeec' align='right'>371624</td><td bgcolor='#eeeeec'>{main}(  )</td><td title='C:\wamp\www\platform\01_front\index.php' bgcolor='#eeeeec'>..\index.php<b>:</b>0</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>2</td><td bgcolor='#eeeeec' align='center'>0.0040</td><td bgcolor='#eeeeec' align='right'>657320</td><td bgcolor='#eeeeec'>Yii::createExtendWebApplication(  )</td><td title='C:\wamp\www\platform\01_front\index.php' bgcolor='#eeeeec'>..\index.php<b>:</b>18</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>3</td><td bgcolor='#eeeeec' align='center'>0.0187</td><td bgcolor='#eeeeec' align='right'>1990784</td><td bgcolor='#eeeeec'>CApplication->run(  )</td><td title='C:\wamp\www\platform\03_library\yii.php' bgcolor='#eeeeec'>..\yii.php<b>:</b>45</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>4</td><td bgcolor='#eeeeec' align='center'>0.0187</td><td bgcolor='#eeeeec' align='right'>1990784</td><td bgcolor='#eeeeec'>CWebApplication->processRequest(  )</td><td title='C:\wamp\www\platform\03_library\base\CApplication.php' bgcolor='#eeeeec'>..\CApplication.php<b>:</b>162</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>5</td><td bgcolor='#eeeeec' align='center'>0.0226</td><td bgcolor='#eeeeec' align='right'>2227520</td><td bgcolor='#eeeeec'>CWebApplication->runController(  )</td><td title='C:\wamp\www\platform\03_library\web\CWebApplication.php' bgcolor='#eeeeec'>..\CWebApplication.php<b>:</b>142</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>6</td><td bgcolor='#eeeeec' align='center'>0.0257</td><td bgcolor='#eeeeec' align='right'>2643520</td><td bgcolor='#eeeeec'>CController->run(  )</td><td title='C:\wamp\www\platform\03_library\web\CWebApplication.php' bgcolor='#eeeeec'>..\CWebApplication.php<b>:</b>283</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>7</td><td bgcolor='#eeeeec' align='center'>0.0263</td><td bgcolor='#eeeeec' align='right'>2685256</td><td bgcolor='#eeeeec'>CController->runActionWithFilters(  )</td><td title='C:\wamp\www\platform\03_library\web\CController.php' bgcolor='#eeeeec'>..\CController.php<b>:</b>266</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>8</td><td bgcolor='#eeeeec' align='center'>0.0263</td><td bgcolor='#eeeeec' align='right'>2685256</td><td bgcolor='#eeeeec'>CController->runAction(  )</td><td title='C:\wamp\www\platform\03_library\web\CController.php' bgcolor='#eeeeec'>..\CController.php<b>:</b>287</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>9</td><td bgcolor='#eeeeec' align='center'>0.0263</td><td bgcolor='#eeeeec' align='right'>2685256</td><td bgcolor='#eeeeec'>CInlineAction->runWithParams(  )</td><td title='C:\wamp\www\platform\03_library\web\CController.php' bgcolor='#eeeeec'>..\CController.php<b>:</b>309</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>10</td><td bgcolor='#eeeeec' align='center'>0.0264</td><td bgcolor='#eeeeec' align='right'>2685872</td><td bgcolor='#eeeeec'>SiteController->actionIndex(  )</td><td title='C:\wamp\www\platform\03_library\web\actions\CInlineAction.php' bgcolor='#eeeeec'>..\CInlineAction.php<b>:</b>50</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>11</td><td bgcolor='#eeeeec' align='center'>0.0404</td><td bgcolor='#eeeeec' align='right'>3903480</td><td bgcolor='#eeeeec'>CController->forward(  )</td><td title='C:\wamp\www\platform\01_front\protected\controllers\SiteController.php' bgcolor='#eeeeec'>..\SiteController.php<b>:</b>12</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>12</td><td bgcolor='#eeeeec' align='center'>0.0405</td><td bgcolor='#eeeeec' align='right'>3903512</td><td bgcolor='#eeeeec'>CController->run(  )</td><td title='C:\wamp\www\platform\03_library\web\CController.php' bgcolor='#eeeeec'>..\CController.php<b>:</b>748</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>13</td><td bgcolor='#eeeeec' align='center'>0.0405</td><td bgcolor='#eeeeec' align='right'>3904056</td><td bgcolor='#eeeeec'>CController->runActionWithFilters(  )</td><td title='C:\wamp\www\platform\03_library\web\CController.php' bgcolor='#eeeeec'>..\CController.php<b>:</b>266</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>14</td><td bgcolor='#eeeeec' align='center'>0.0405</td><td bgcolor='#eeeeec' align='right'>3904056</td><td bgcolor='#eeeeec'>CController->runAction(  )</td><td title='C:\wamp\www\platform\03_library\web\CController.php' bgcolor='#eeeeec'>..\CController.php<b>:</b>287</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>15</td><td bgcolor='#eeeeec' align='center'>0.0406</td><td bgcolor='#eeeeec' align='right'>3904056</td><td bgcolor='#eeeeec'>CInlineAction->runWithParams(  )</td><td title='C:\wamp\www\platform\03_library\web\CController.php' bgcolor='#eeeeec'>..\CController.php<b>:</b>309</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>16</td><td bgcolor='#eeeeec' align='center'>0.0406</td><td bgcolor='#eeeeec' align='right'>3904488</td><td bgcolor='#eeeeec'>SiteController->actionLogin(  )</td><td title='C:\wamp\www\platform\03_library\web\actions\CInlineAction.php' bgcolor='#eeeeec'>..\CInlineAction.php<b>:</b>50</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>17</td><td bgcolor='#eeeeec' align='center'>0.0420</td><td bgcolor='#eeeeec' align='right'>4084520</td><td bgcolor='#eeeeec'>Controller->render(  )</td><td title='C:\wamp\www\platform\01_front\protected\controllers\SiteController.php' bgcolor='#eeeeec'>..\SiteController.php<b>:</b>44</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>18</td><td bgcolor='#eeeeec' align='center'>0.0420</td><td bgcolor='#eeeeec' align='right'>4084584</td><td bgcolor='#eeeeec'>CController->renderPartial(  )</td><td title='C:\wamp\www\platform\01_front\protected\components\Controller.php' bgcolor='#eeeeec'>..\Controller.php<b>:</b>40</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>19</td><td bgcolor='#eeeeec' align='center'>0.0457</td><td bgcolor='#eeeeec' align='right'>4446616</td><td bgcolor='#eeeeec'>CBaseController->renderFile(  )</td><td title='C:\wamp\www\platform\03_library\web\CController.php' bgcolor='#eeeeec'>..\CController.php<b>:</b>870</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>20</td><td bgcolor='#eeeeec' align='center'>0.0462</td><td bgcolor='#eeeeec' align='right'>4510392</td><td bgcolor='#eeeeec'>PHPTALViewRenderer->renderFile(  )</td><td title='C:\wamp\www\platform\03_library\web\CBaseController.php' bgcolor='#eeeeec'>..\CBaseController.php<b>:</b>94</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>21</td><td bgcolor='#eeeeec' align='center'>0.0476</td><td bgcolor='#eeeeec' align='right'>4634024</td><td bgcolor='#eeeeec'>PHPTAL->execute(  )</td><td title='C:\wamp\www\platform\01_front\protected\extensions\PHPTALViewRenderer.php' bgcolor='#eeeeec'>..\PHPTALViewRenderer.php<b>:</b>50</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>22</td><td bgcolor='#eeeeec' align='center'>0.0476</td><td bgcolor='#eeeeec' align='right'>4634024</td><td bgcolor='#eeeeec'>PHPTAL->prepare(  )</td><td title='C:\wamp\www\platform\01_front\protected\vendors\phptal\PHPTAL.php' bgcolor='#eeeeec'>..\PHPTAL.php<b>:</b>667</td></tr>
+</table></font>' in C:\wamp\www\platform\01_front\protected\vendors\phptal\PHPTAL.php:857
+Stack trace:
+#0 C:\wamp\www\platform\01_front\protected\vendors\phptal\PHPTAL.php(667): PHPTAL->prepare()
+#1 C:\wamp\www\platform\01_front\protected\extensions\PHPTALViewRenderer.php(50): PHPTAL->execute()
+#2 C:\wamp\www\platform\03_library\web\CBaseController.php(94): PHPTALViewRenderer->renderFile(Object(SiteController), 'C:\wamp\www\pla...', Array, true)
+#3 C:\wamp\www\platform\03_library\web\CController.php(870): CBaseController->renderFile('C:\wamp\www\pla...', Array, true)
+#4 C:\wamp\www\platform\01_front\protected\components\Controller.php(40): CController->renderPartial('login', Array, true)
+#5 C:\wamp\www\platform\01_front\protected\controllers\SiteController.php(44): Controller->render('login', Array)
+#6 C:\wamp\www\platform\03_library\web\actions\CInlineAction.php(50): SiteController->actionLogin()
+#7 C:\wamp\www\platform\03_library\web\CController.php(309): CInlineAction->runWithParams(Array)
+#8 C:\wamp\www\platform\03_library\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#9 C:\wamp\www\platform\03_library\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\wamp\www\platform\03_library\web\CController.php(748): CController->run('login')
+#11 C:\wamp\www\platform\01_front\protected\controllers\SiteController.php(12): CController->forward('login')
+#12 C:\wamp\www\platform\03_library\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#13 C:\wamp\www\platform\03_library\web\CController.php(309): CInlineAction->runWithParams(Array)
+#14 C:\wamp\www\platform\03_library\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#15 C:\wamp\www\platform\03_library\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 C:\wamp\www\platform\03_library\web\CWebApplication.php(283): CController->run('')
+#17 C:\wamp\www\platform\03_library\web\CWebApplication.php(142): CWebApplication->runController('')
+#18 C:\wamp\www\platform\03_library\base\CApplication.php(162): CWebApplication->processRequest()
+#19 C:\wamp\www\platform\03_library\yii.php(45): CApplication->run()
+#20 C:\wamp\www\platform\01_front\index.php(18): Yii::createExtendWebApplication('C:\wamp\www\pla...')
+#21 {main}
+REQUEST_URI=/
+---
+2015/05/26 09:33:56 [error] [exception.PHPTAL_ParserException] exception 'PHPTAL_ParserException' with message 'Invalid TALES path: 'error(model, 'username'))', expected variable name. Complex expressions need php: modifier.' in C:\wamp\www\platform\01_front\themes\adminlte\views\site\login.html:6
+Stack trace:
+#0 [internal function]: PHPTAL_Php_TalesInternal::path('error(model, 'u...', false)
+#1 C:\wamp\www\platform\01_front\protected\vendors\phptal\PHPTAL\Php\TalesInternal.php(480): call_user_func(Array, 'error(model, 'u...', false)
+#2 C:\wamp\www\platform\01_front\protected\vendors\phptal\PHPTAL\Php\TalesInternal.php(456): PHPTAL_Php_TalesInternal::getPHPExpressionsForModifier('path', 'error(model, 'u...', false)
+#3 C:\wamp\www\platform\01_front\protected\vendors\phptal\PHPTAL\Php\State.php(117): PHPTAL_Php_TalesInternal::compileToPHPExpressions('error(model, 'u...', false)
+#4 C:\wamp\www\platform\01_front\protected\vendors\phptal\PHPTAL\Php\CodeWriter.php(138): PHPTAL_Php_State->evaluateExpression('error(model, 'u...')
+#5 C:\wamp\www\platform\01_front\protected\vendors\phptal\PHPTAL\Php\Attribute\TAL\Content.php(40): PHPTAL_Php_CodeWriter->evaluateExpression('error(model, 'u...')
+#6 C:\wamp\www\platform\01_front\protected\vendors\phptal\PHPTAL\Dom\Element.php(399): PHPTAL_Php_Attribute_TAL_Content->before(Object(PHPTAL_Php_CodeWriter))
+#7 C:\wamp\www\platform\01_front\protected\vendors\phptal\PHPTAL\Dom\Element.php(216): PHPTAL_Dom_Element->generateContent(Object(PHPTAL_Php_CodeWriter))
+#8 C:\wamp\www\platform\01_front\protected\vendors\phptal\PHPTAL\Dom\Element.php(395): PHPTAL_Dom_Element->generateCode(Object(PHPTAL_Php_CodeWriter))
+#9 C:\wamp\www\platform\01_front\protected\vendors\phptal\PHPTAL\Dom\Element.php(216): PHPTAL_Dom_Element->generateContent(Object(PHPTAL_Php_CodeWriter))
+#10 C:\wamp\www\platform\01_front\protected\vendors\phptal\PHPTAL\Dom\Element.php(395): PHPTAL_Dom_Element->generateCode(Object(PHPTAL_Php_CodeWriter))
+#11 C:\wamp\www\platform\01_front\protected\vendors\phptal\PHPTAL\Dom\Element.php(216): PHPTAL_Dom_Element->generateContent(Object(PHPTAL_Php_CodeWriter))
+#12 C:\wamp\www\platform\01_front\protected\vendors\phptal\PHPTAL\Dom\Element.php(395): PHPTAL_Dom_Element->generateCode(Object(PHPTAL_Php_CodeWriter))
+#13 C:\wamp\www\platform\01_front\protected\vendors\phptal\PHPTAL\Dom\Element.php(216): PHPTAL_Dom_Element->generateContent(Object(PHPTAL_Php_CodeWriter))
+#14 C:\wamp\www\platform\01_front\protected\vendors\phptal\PHPTAL\Dom\Element.php(395): PHPTAL_Dom_Element->generateCode(Object(PHPTAL_Php_CodeWriter))
+#15 C:\wamp\www\platform\01_front\protected\vendors\phptal\PHPTAL\Dom\Element.php(216): PHPTAL_Dom_Element->generateContent(Object(PHPTAL_Php_CodeWriter))
+#16 C:\wamp\www\platform\01_front\protected\vendors\phptal\PHPTAL\Dom\Element.php(395): PHPTAL_Dom_Element->generateCode(Object(PHPTAL_Php_CodeWriter))
+#17 C:\wamp\www\platform\01_front\protected\vendors\phptal\PHPTAL\Dom\Element.php(216): PHPTAL_Dom_Element->generateContent(Object(PHPTAL_Php_CodeWriter))
+#18 C:\wamp\www\platform\01_front\protected\vendors\phptal\PHPTAL\Dom\Element.php(395): PHPTAL_Dom_Element->generateCode(Object(PHPTAL_Php_CodeWriter))
+#19 C:\wamp\www\platform\01_front\protected\vendors\phptal\PHPTAL\Dom\Element.php(216): PHPTAL_Dom_Element->generateContent(Object(PHPTAL_Php_CodeWriter))
+#20 C:\wamp\www\platform\01_front\protected\vendors\phptal\PHPTAL\Php\CodeWriter.php(240): PHPTAL_Dom_Element->generateCode(Object(PHPTAL_Php_CodeWriter))
+#21 C:\wamp\www\platform\01_front\protected\vendors\phptal\PHPTAL.php(1126): PHPTAL_Php_CodeWriter->doTemplateFile('tpl_55643e03_lo...', Object(PHPTAL_Dom_Element))
+#22 C:\wamp\www\platform\01_front\protected\vendors\phptal\PHPTAL.php(834): PHPTAL->parse()
+#23 C:\wamp\www\platform\01_front\protected\vendors\phptal\PHPTAL.php(667): PHPTAL->prepare()
+#24 C:\wamp\www\platform\01_front\protected\extensions\PHPTALViewRenderer.php(50): PHPTAL->execute()
+#25 C:\wamp\www\platform\03_library\web\CBaseController.php(94): PHPTALViewRenderer->renderFile(Object(SiteController), 'C:\wamp\www\pla...', Array, true)
+#26 C:\wamp\www\platform\03_library\web\CController.php(870): CBaseController->renderFile('C:\wamp\www\pla...', Array, true)
+#27 C:\wamp\www\platform\01_front\protected\components\Controller.php(40): CController->renderPartial('login', Array, true)
+#28 C:\wamp\www\platform\01_front\protected\controllers\SiteController.php(44): Controller->render('login', Array)
+#29 C:\wamp\www\platform\03_library\web\actions\CInlineAction.php(50): SiteController->actionLogin()
+#30 C:\wamp\www\platform\03_library\web\CController.php(309): CInlineAction->runWithParams(Array)
+#31 C:\wamp\www\platform\03_library\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#32 C:\wamp\www\platform\03_library\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#33 C:\wamp\www\platform\03_library\web\CController.php(748): CController->run('login')
+#34 C:\wamp\www\platform\01_front\protected\controllers\SiteController.php(12): CController->forward('login')
+#35 C:\wamp\www\platform\03_library\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#36 C:\wamp\www\platform\03_library\web\CController.php(309): CInlineAction->runWithParams(Array)
+#37 C:\wamp\www\platform\03_library\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#38 C:\wamp\www\platform\03_library\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#39 C:\wamp\www\platform\03_library\web\CWebApplication.php(283): CController->run('')
+#40 C:\wamp\www\platform\03_library\web\CWebApplication.php(142): CWebApplication->runController('')
+#41 C:\wamp\www\platform\03_library\base\CApplication.php(162): CWebApplication->processRequest()
+#42 C:\wamp\www\platform\03_library\yii.php(45): CApplication->run()
+#43 C:\wamp\www\platform\01_front\index.php(18): Yii::createExtendWebApplication('C:\wamp\www\pla...')
+#44 {main}
+REQUEST_URI=/
+---
+2015/05/26 09:34:35 [error] [exception.PHPTAL_TemplateException] From C:\wamp\www\platform\01_front\protected\vendors\phptal\PHPTAL.php around line 857
+exception 'PHPTAL_TemplateException' with message '<br />
+<font size='1'><table class='xdebug-error' dir='ltr' border='1' cellspacing='0' cellpadding='1'>
+<tr><th align='left' bgcolor='#f57900' colspan="5"><span style='background-color: #cc0000; color: #fce94f; font-size: x-large;'>( ! )</span> Parse error: syntax error, unexpected ')', expecting ',' or ';' in C:\wamp\www\platform\01_front\protected\vendors\phptal\PHPTAL.php(845) : C:\Windows\TEMP\tpl_55643e29_login__vjlZ0ysEBJTM7X4vVXUUwQ.php on line <i>21</i></th></tr>
+<tr><th align='left' bgcolor='#e9b96e' colspan='5'>Call Stack</th></tr>
+<tr><th align='center' bgcolor='#eeeeec'>#</th><th align='left' bgcolor='#eeeeec'>Time</th><th align='left' bgcolor='#eeeeec'>Memory</th><th align='left' bgcolor='#eeeeec'>Function</th><th align='left' bgcolor='#eeeeec'>Location</th></tr>
+<tr><td bgcolor='#eeeeec' align='center'>1</td><td bgcolor='#eeeeec' align='center'>0.0008</td><td bgcolor='#eeeeec' align='right'>371864</td><td bgcolor='#eeeeec'>{main}(  )</td><td title='C:\wamp\www\platform\01_front\index.php' bgcolor='#eeeeec'>..\index.php<b>:</b>0</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>2</td><td bgcolor='#eeeeec' align='center'>0.0039</td><td bgcolor='#eeeeec' align='right'>657560</td><td bgcolor='#eeeeec'>Yii::createExtendWebApplication(  )</td><td title='C:\wamp\www\platform\01_front\index.php' bgcolor='#eeeeec'>..\index.php<b>:</b>18</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>3</td><td bgcolor='#eeeeec' align='center'>0.0204</td><td bgcolor='#eeeeec' align='right'>1990992</td><td bgcolor='#eeeeec'>CApplication->run(  )</td><td title='C:\wamp\www\platform\03_library\yii.php' bgcolor='#eeeeec'>..\yii.php<b>:</b>45</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>4</td><td bgcolor='#eeeeec' align='center'>0.0204</td><td bgcolor='#eeeeec' align='right'>1990992</td><td bgcolor='#eeeeec'>CWebApplication->processRequest(  )</td><td title='C:\wamp\www\platform\03_library\base\CApplication.php' bgcolor='#eeeeec'>..\CApplication.php<b>:</b>162</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>5</td><td bgcolor='#eeeeec' align='center'>0.0248</td><td bgcolor='#eeeeec' align='right'>2227696</td><td bgcolor='#eeeeec'>CWebApplication->runController(  )</td><td title='C:\wamp\www\platform\03_library\web\CWebApplication.php' bgcolor='#eeeeec'>..\CWebApplication.php<b>:</b>142</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>6</td><td bgcolor='#eeeeec' align='center'>0.0274</td><td bgcolor='#eeeeec' align='right'>2643680</td><td bgcolor='#eeeeec'>CController->run(  )</td><td title='C:\wamp\www\platform\03_library\web\CWebApplication.php' bgcolor='#eeeeec'>..\CWebApplication.php<b>:</b>283</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>7</td><td bgcolor='#eeeeec' align='center'>0.0279</td><td bgcolor='#eeeeec' align='right'>2685416</td><td bgcolor='#eeeeec'>CController->runActionWithFilters(  )</td><td title='C:\wamp\www\platform\03_library\web\CController.php' bgcolor='#eeeeec'>..\CController.php<b>:</b>266</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>8</td><td bgcolor='#eeeeec' align='center'>0.0279</td><td bgcolor='#eeeeec' align='right'>2685416</td><td bgcolor='#eeeeec'>CController->runAction(  )</td><td title='C:\wamp\www\platform\03_library\web\CController.php' bgcolor='#eeeeec'>..\CController.php<b>:</b>287</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>9</td><td bgcolor='#eeeeec' align='center'>0.0279</td><td bgcolor='#eeeeec' align='right'>2685416</td><td bgcolor='#eeeeec'>CInlineAction->runWithParams(  )</td><td title='C:\wamp\www\platform\03_library\web\CController.php' bgcolor='#eeeeec'>..\CController.php<b>:</b>309</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>10</td><td bgcolor='#eeeeec' align='center'>0.0280</td><td bgcolor='#eeeeec' align='right'>2686032</td><td bgcolor='#eeeeec'>SiteController->actionIndex(  )</td><td title='C:\wamp\www\platform\03_library\web\actions\CInlineAction.php' bgcolor='#eeeeec'>..\CInlineAction.php<b>:</b>50</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>11</td><td bgcolor='#eeeeec' align='center'>0.0509</td><td bgcolor='#eeeeec' align='right'>3903648</td><td bgcolor='#eeeeec'>CController->forward(  )</td><td title='C:\wamp\www\platform\01_front\protected\controllers\SiteController.php' bgcolor='#eeeeec'>..\SiteController.php<b>:</b>12</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>12</td><td bgcolor='#eeeeec' align='center'>0.0509</td><td bgcolor='#eeeeec' align='right'>3903680</td><td bgcolor='#eeeeec'>CController->run(  )</td><td title='C:\wamp\www\platform\03_library\web\CController.php' bgcolor='#eeeeec'>..\CController.php<b>:</b>748</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>13</td><td bgcolor='#eeeeec' align='center'>0.0510</td><td bgcolor='#eeeeec' align='right'>3904224</td><td bgcolor='#eeeeec'>CController->runActionWithFilters(  )</td><td title='C:\wamp\www\platform\03_library\web\CController.php' bgcolor='#eeeeec'>..\CController.php<b>:</b>266</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>14</td><td bgcolor='#eeeeec' align='center'>0.0510</td><td bgcolor='#eeeeec' align='right'>3904224</td><td bgcolor='#eeeeec'>CController->runAction(  )</td><td title='C:\wamp\www\platform\03_library\web\CController.php' bgcolor='#eeeeec'>..\CController.php<b>:</b>287</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>15</td><td bgcolor='#eeeeec' align='center'>0.0510</td><td bgcolor='#eeeeec' align='right'>3904224</td><td bgcolor='#eeeeec'>CInlineAction->runWithParams(  )</td><td title='C:\wamp\www\platform\03_library\web\CController.php' bgcolor='#eeeeec'>..\CController.php<b>:</b>309</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>16</td><td bgcolor='#eeeeec' align='center'>0.0510</td><td bgcolor='#eeeeec' align='right'>3904656</td><td bgcolor='#eeeeec'>SiteController->actionLogin(  )</td><td title='C:\wamp\www\platform\03_library\web\actions\CInlineAction.php' bgcolor='#eeeeec'>..\CInlineAction.php<b>:</b>50</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>17</td><td bgcolor='#eeeeec' align='center'>0.0524</td><td bgcolor='#eeeeec' align='right'>4084688</td><td bgcolor='#eeeeec'>Controller->render(  )</td><td title='C:\wamp\www\platform\01_front\protected\controllers\SiteController.php' bgcolor='#eeeeec'>..\SiteController.php<b>:</b>44</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>18</td><td bgcolor='#eeeeec' align='center'>0.0524</td><td bgcolor='#eeeeec' align='right'>4084752</td><td bgcolor='#eeeeec'>CController->renderPartial(  )</td><td title='C:\wamp\www\platform\01_front\protected\components\Controller.php' bgcolor='#eeeeec'>..\Controller.php<b>:</b>40</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>19</td><td bgcolor='#eeeeec' align='center'>0.0562</td><td bgcolor='#eeeeec' align='right'>4446776</td><td bgcolor='#eeeeec'>CBaseController->renderFile(  )</td><td title='C:\wamp\www\platform\03_library\web\CController.php' bgcolor='#eeeeec'>..\CController.php<b>:</b>870</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>20</td><td bgcolor='#eeeeec' align='center'>0.0567</td><td bgcolor='#eeeeec' align='right'>4510552</td><td bgcolor='#eeeeec'>PHPTALViewRenderer->renderFile(  )</td><td title='C:\wamp\www\platform\03_library\web\CBaseController.php' bgcolor='#eeeeec'>..\CBaseController.php<b>:</b>94</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>21</td><td bgcolor='#eeeeec' align='center'>0.0582</td><td bgcolor='#eeeeec' align='right'>4634184</td><td bgcolor='#eeeeec'>PHPTAL->execute(  )</td><td title='C:\wamp\www\platform\01_front\protected\extensions\PHPTALViewRenderer.php' bgcolor='#eeeeec'>..\PHPTALViewRenderer.php<b>:</b>50</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>22</td><td bgcolor='#eeeeec' align='center'>0.0582</td><td bgcolor='#eeeeec' align='right'>4634184</td><td bgcolor='#eeeeec'>PHPTAL->prepare(  )</td><td title='C:\wamp\www\platform\01_front\protected\vendors\phptal\PHPTAL.php' bgcolor='#eeeeec'>..\PHPTAL.php<b>:</b>667</td></tr>
+</table></font>' in C:\wamp\www\platform\01_front\protected\vendors\phptal\PHPTAL.php:857
+Stack trace:
+#0 C:\wamp\www\platform\01_front\protected\vendors\phptal\PHPTAL.php(667): PHPTAL->prepare()
+#1 C:\wamp\www\platform\01_front\protected\extensions\PHPTALViewRenderer.php(50): PHPTAL->execute()
+#2 C:\wamp\www\platform\03_library\web\CBaseController.php(94): PHPTALViewRenderer->renderFile(Object(SiteController), 'C:\wamp\www\pla...', Array, true)
+#3 C:\wamp\www\platform\03_library\web\CController.php(870): CBaseController->renderFile('C:\wamp\www\pla...', Array, true)
+#4 C:\wamp\www\platform\01_front\protected\components\Controller.php(40): CController->renderPartial('login', Array, true)
+#5 C:\wamp\www\platform\01_front\protected\controllers\SiteController.php(44): Controller->render('login', Array)
+#6 C:\wamp\www\platform\03_library\web\actions\CInlineAction.php(50): SiteController->actionLogin()
+#7 C:\wamp\www\platform\03_library\web\CController.php(309): CInlineAction->runWithParams(Array)
+#8 C:\wamp\www\platform\03_library\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#9 C:\wamp\www\platform\03_library\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\wamp\www\platform\03_library\web\CController.php(748): CController->run('login')
+#11 C:\wamp\www\platform\01_front\protected\controllers\SiteController.php(12): CController->forward('login')
+#12 C:\wamp\www\platform\03_library\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#13 C:\wamp\www\platform\03_library\web\CController.php(309): CInlineAction->runWithParams(Array)
+#14 C:\wamp\www\platform\03_library\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#15 C:\wamp\www\platform\03_library\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 C:\wamp\www\platform\03_library\web\CWebApplication.php(283): CController->run('')
+#17 C:\wamp\www\platform\03_library\web\CWebApplication.php(142): CWebApplication->runController('')
+#18 C:\wamp\www\platform\03_library\base\CApplication.php(162): CWebApplication->processRequest()
+#19 C:\wamp\www\platform\03_library\yii.php(45): CApplication->run()
+#20 C:\wamp\www\platform\01_front\index.php(18): Yii::createExtendWebApplication('C:\wamp\www\pla...')
+#21 {main}
+REQUEST_URI=/
+---
+2015/05/26 09:35:49 [error] [exception.PHPTAL_TemplateException] From C:\wamp\www\platform\01_front\protected\vendors\phptal\PHPTAL.php around line 857
+exception 'PHPTAL_TemplateException' with message '<br />
+<font size='1'><table class='xdebug-error' dir='ltr' border='1' cellspacing='0' cellpadding='1'>
+<tr><th align='left' bgcolor='#f57900' colspan="5"><span style='background-color: #cc0000; color: #fce94f; font-size: x-large;'>( ! )</span> Parse error: syntax error, unexpected ')', expecting ',' or ';' in C:\wamp\www\platform\01_front\protected\vendors\phptal\PHPTAL.php(845) : C:\Windows\TEMP\tpl_55643e74_login__vjlZ0ysEBJTM7X4vVXUUwQ.php on line <i>21</i></th></tr>
+<tr><th align='left' bgcolor='#e9b96e' colspan='5'>Call Stack</th></tr>
+<tr><th align='center' bgcolor='#eeeeec'>#</th><th align='left' bgcolor='#eeeeec'>Time</th><th align='left' bgcolor='#eeeeec'>Memory</th><th align='left' bgcolor='#eeeeec'>Function</th><th align='left' bgcolor='#eeeeec'>Location</th></tr>
+<tr><td bgcolor='#eeeeec' align='center'>1</td><td bgcolor='#eeeeec' align='center'>0.0008</td><td bgcolor='#eeeeec' align='right'>371864</td><td bgcolor='#eeeeec'>{main}(  )</td><td title='C:\wamp\www\platform\01_front\index.php' bgcolor='#eeeeec'>..\index.php<b>:</b>0</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>2</td><td bgcolor='#eeeeec' align='center'>0.0036</td><td bgcolor='#eeeeec' align='right'>657560</td><td bgcolor='#eeeeec'>Yii::createExtendWebApplication(  )</td><td title='C:\wamp\www\platform\01_front\index.php' bgcolor='#eeeeec'>..\index.php<b>:</b>18</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>3</td><td bgcolor='#eeeeec' align='center'>0.0197</td><td bgcolor='#eeeeec' align='right'>1990992</td><td bgcolor='#eeeeec'>CApplication->run(  )</td><td title='C:\wamp\www\platform\03_library\yii.php' bgcolor='#eeeeec'>..\yii.php<b>:</b>45</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>4</td><td bgcolor='#eeeeec' align='center'>0.0197</td><td bgcolor='#eeeeec' align='right'>1990992</td><td bgcolor='#eeeeec'>CWebApplication->processRequest(  )</td><td title='C:\wamp\www\platform\03_library\base\CApplication.php' bgcolor='#eeeeec'>..\CApplication.php<b>:</b>162</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>5</td><td bgcolor='#eeeeec' align='center'>0.0245</td><td bgcolor='#eeeeec' align='right'>2227696</td><td bgcolor='#eeeeec'>CWebApplication->runController(  )</td><td title='C:\wamp\www\platform\03_library\web\CWebApplication.php' bgcolor='#eeeeec'>..\CWebApplication.php<b>:</b>142</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>6</td><td bgcolor='#eeeeec' align='center'>0.0275</td><td bgcolor='#eeeeec' align='right'>2643680</td><td bgcolor='#eeeeec'>CController->run(  )</td><td title='C:\wamp\www\platform\03_library\web\CWebApplication.php' bgcolor='#eeeeec'>..\CWebApplication.php<b>:</b>283</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>7</td><td bgcolor='#eeeeec' align='center'>0.0279</td><td bgcolor='#eeeeec' align='right'>2685416</td><td bgcolor='#eeeeec'>CController->runActionWithFilters(  )</td><td title='C:\wamp\www\platform\03_library\web\CController.php' bgcolor='#eeeeec'>..\CController.php<b>:</b>266</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>8</td><td bgcolor='#eeeeec' align='center'>0.0279</td><td bgcolor='#eeeeec' align='right'>2685416</td><td bgcolor='#eeeeec'>CController->runAction(  )</td><td title='C:\wamp\www\platform\03_library\web\CController.php' bgcolor='#eeeeec'>..\CController.php<b>:</b>287</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>9</td><td bgcolor='#eeeeec' align='center'>0.0279</td><td bgcolor='#eeeeec' align='right'>2685416</td><td bgcolor='#eeeeec'>CInlineAction->runWithParams(  )</td><td title='C:\wamp\www\platform\03_library\web\CController.php' bgcolor='#eeeeec'>..\CController.php<b>:</b>309</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>10</td><td bgcolor='#eeeeec' align='center'>0.0280</td><td bgcolor='#eeeeec' align='right'>2686032</td><td bgcolor='#eeeeec'>SiteController->actionIndex(  )</td><td title='C:\wamp\www\platform\03_library\web\actions\CInlineAction.php' bgcolor='#eeeeec'>..\CInlineAction.php<b>:</b>50</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>11</td><td bgcolor='#eeeeec' align='center'>0.0505</td><td bgcolor='#eeeeec' align='right'>3903648</td><td bgcolor='#eeeeec'>CController->forward(  )</td><td title='C:\wamp\www\platform\01_front\protected\controllers\SiteController.php' bgcolor='#eeeeec'>..\SiteController.php<b>:</b>12</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>12</td><td bgcolor='#eeeeec' align='center'>0.0505</td><td bgcolor='#eeeeec' align='right'>3903680</td><td bgcolor='#eeeeec'>CController->run(  )</td><td title='C:\wamp\www\platform\03_library\web\CController.php' bgcolor='#eeeeec'>..\CController.php<b>:</b>748</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>13</td><td bgcolor='#eeeeec' align='center'>0.0506</td><td bgcolor='#eeeeec' align='right'>3904224</td><td bgcolor='#eeeeec'>CController->runActionWithFilters(  )</td><td title='C:\wamp\www\platform\03_library\web\CController.php' bgcolor='#eeeeec'>..\CController.php<b>:</b>266</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>14</td><td bgcolor='#eeeeec' align='center'>0.0506</td><td bgcolor='#eeeeec' align='right'>3904224</td><td bgcolor='#eeeeec'>CController->runAction(  )</td><td title='C:\wamp\www\platform\03_library\web\CController.php' bgcolor='#eeeeec'>..\CController.php<b>:</b>287</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>15</td><td bgcolor='#eeeeec' align='center'>0.0506</td><td bgcolor='#eeeeec' align='right'>3904224</td><td bgcolor='#eeeeec'>CInlineAction->runWithParams(  )</td><td title='C:\wamp\www\platform\03_library\web\CController.php' bgcolor='#eeeeec'>..\CController.php<b>:</b>309</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>16</td><td bgcolor='#eeeeec' align='center'>0.0507</td><td bgcolor='#eeeeec' align='right'>3904656</td><td bgcolor='#eeeeec'>SiteController->actionLogin(  )</td><td title='C:\wamp\www\platform\03_library\web\actions\CInlineAction.php' bgcolor='#eeeeec'>..\CInlineAction.php<b>:</b>50</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>17</td><td bgcolor='#eeeeec' align='center'>0.0524</td><td bgcolor='#eeeeec' align='right'>4084688</td><td bgcolor='#eeeeec'>Controller->render(  )</td><td title='C:\wamp\www\platform\01_front\protected\controllers\SiteController.php' bgcolor='#eeeeec'>..\SiteController.php<b>:</b>44</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>18</td><td bgcolor='#eeeeec' align='center'>0.0524</td><td bgcolor='#eeeeec' align='right'>4084752</td><td bgcolor='#eeeeec'>CController->renderPartial(  )</td><td title='C:\wamp\www\platform\01_front\protected\components\Controller.php' bgcolor='#eeeeec'>..\Controller.php<b>:</b>40</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>19</td><td bgcolor='#eeeeec' align='center'>0.0563</td><td bgcolor='#eeeeec' align='right'>4446776</td><td bgcolor='#eeeeec'>CBaseController->renderFile(  )</td><td title='C:\wamp\www\platform\03_library\web\CController.php' bgcolor='#eeeeec'>..\CController.php<b>:</b>870</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>20</td><td bgcolor='#eeeeec' align='center'>0.0569</td><td bgcolor='#eeeeec' align='right'>4510552</td><td bgcolor='#eeeeec'>PHPTALViewRenderer->renderFile(  )</td><td title='C:\wamp\www\platform\03_library\web\CBaseController.php' bgcolor='#eeeeec'>..\CBaseController.php<b>:</b>94</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>21</td><td bgcolor='#eeeeec' align='center'>0.0584</td><td bgcolor='#eeeeec' align='right'>4634184</td><td bgcolor='#eeeeec'>PHPTAL->execute(  )</td><td title='C:\wamp\www\platform\01_front\protected\extensions\PHPTALViewRenderer.php' bgcolor='#eeeeec'>..\PHPTALViewRenderer.php<b>:</b>50</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>22</td><td bgcolor='#eeeeec' align='center'>0.0584</td><td bgcolor='#eeeeec' align='right'>4634184</td><td bgcolor='#eeeeec'>PHPTAL->prepare(  )</td><td title='C:\wamp\www\platform\01_front\protected\vendors\phptal\PHPTAL.php' bgcolor='#eeeeec'>..\PHPTAL.php<b>:</b>667</td></tr>
+</table></font>' in C:\wamp\www\platform\01_front\protected\vendors\phptal\PHPTAL.php:857
+Stack trace:
+#0 C:\wamp\www\platform\01_front\protected\vendors\phptal\PHPTAL.php(667): PHPTAL->prepare()
+#1 C:\wamp\www\platform\01_front\protected\extensions\PHPTALViewRenderer.php(50): PHPTAL->execute()
+#2 C:\wamp\www\platform\03_library\web\CBaseController.php(94): PHPTALViewRenderer->renderFile(Object(SiteController), 'C:\wamp\www\pla...', Array, true)
+#3 C:\wamp\www\platform\03_library\web\CController.php(870): CBaseController->renderFile('C:\wamp\www\pla...', Array, true)
+#4 C:\wamp\www\platform\01_front\protected\components\Controller.php(40): CController->renderPartial('login', Array, true)
+#5 C:\wamp\www\platform\01_front\protected\controllers\SiteController.php(44): Controller->render('login', Array)
+#6 C:\wamp\www\platform\03_library\web\actions\CInlineAction.php(50): SiteController->actionLogin()
+#7 C:\wamp\www\platform\03_library\web\CController.php(309): CInlineAction->runWithParams(Array)
+#8 C:\wamp\www\platform\03_library\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#9 C:\wamp\www\platform\03_library\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\wamp\www\platform\03_library\web\CController.php(748): CController->run('login')
+#11 C:\wamp\www\platform\01_front\protected\controllers\SiteController.php(12): CController->forward('login')
+#12 C:\wamp\www\platform\03_library\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#13 C:\wamp\www\platform\03_library\web\CController.php(309): CInlineAction->runWithParams(Array)
+#14 C:\wamp\www\platform\03_library\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#15 C:\wamp\www\platform\03_library\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 C:\wamp\www\platform\03_library\web\CWebApplication.php(283): CController->run('')
+#17 C:\wamp\www\platform\03_library\web\CWebApplication.php(142): CWebApplication->runController('')
+#18 C:\wamp\www\platform\03_library\base\CApplication.php(162): CWebApplication->processRequest()
+#19 C:\wamp\www\platform\03_library\yii.php(45): CApplication->run()
+#20 C:\wamp\www\platform\01_front\index.php(18): Yii::createExtendWebApplication('C:\wamp\www\pla...')
+#21 {main}
+REQUEST_URI=/
+---
+2015/05/26 09:42:48 [error] [exception.PHPTAL_VariableNotFoundException] exception 'PHPTAL_VariableNotFoundException' with message 'Unable to find variable 'username' in current scope' in C:\wamp\www\platform\01_front\themes\adminlte\views\site\login.html:6
+Stack trace:
+#0 C:\wamp\www\platform\01_front\protected\vendors\phptal\PHPTAL.php(845) : eval()'d code(21): PHPTAL_Context->__get('username')
+#1 C:\wamp\www\platform\01_front\protected\vendors\phptal\PHPTAL.php(675): tpl_55644014_login__vjlZ0ysEBJTM7X4vVXUUwQ(Object(PHPTAL), Object(PHPTAL_Context))
+#2 C:\wamp\www\platform\01_front\protected\extensions\PHPTALViewRenderer.php(50): PHPTAL->execute()
+#3 C:\wamp\www\platform\03_library\web\CBaseController.php(94): PHPTALViewRenderer->renderFile(Object(SiteController), 'C:\wamp\www\pla...', Array, true)
+#4 C:\wamp\www\platform\03_library\web\CController.php(870): CBaseController->renderFile('C:\wamp\www\pla...', Array, true)
+#5 C:\wamp\www\platform\01_front\protected\components\Controller.php(40): CController->renderPartial('login', Array, true)
+#6 C:\wamp\www\platform\01_front\protected\controllers\SiteController.php(45): Controller->render('login', Array)
+#7 C:\wamp\www\platform\03_library\web\actions\CInlineAction.php(50): SiteController->actionLogin()
+#8 C:\wamp\www\platform\03_library\web\CController.php(309): CInlineAction->runWithParams(Array)
+#9 C:\wamp\www\platform\03_library\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#10 C:\wamp\www\platform\03_library\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\wamp\www\platform\03_library\web\CController.php(748): CController->run('login')
+#12 C:\wamp\www\platform\01_front\protected\controllers\SiteController.php(12): CController->forward('login')
+#13 C:\wamp\www\platform\03_library\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#14 C:\wamp\www\platform\03_library\web\CController.php(309): CInlineAction->runWithParams(Array)
+#15 C:\wamp\www\platform\03_library\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#16 C:\wamp\www\platform\03_library\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 C:\wamp\www\platform\03_library\web\CWebApplication.php(283): CController->run('')
+#18 C:\wamp\www\platform\03_library\web\CWebApplication.php(142): CWebApplication->runController('')
+#19 C:\wamp\www\platform\03_library\base\CApplication.php(162): CWebApplication->processRequest()
+#20 C:\wamp\www\platform\03_library\yii.php(45): CApplication->run()
+#21 C:\wamp\www\platform\01_front\index.php(18): Yii::createExtendWebApplication('C:\wamp\www\pla...')
+#22 {main}
+REQUEST_URI=/
+HTTP_REFERER=http://platform.dev/
+---
+2015/05/26 09:43:41 [error] [exception.PHPTAL_TemplateException] From C:\wamp\www\platform\01_front\protected\vendors\phptal\PHPTAL.php around line 857
+exception 'PHPTAL_TemplateException' with message '<br />
+<font size='1'><table class='xdebug-error' dir='ltr' border='1' cellspacing='0' cellpadding='1'>
+<tr><th align='left' bgcolor='#f57900' colspan="5"><span style='background-color: #cc0000; color: #fce94f; font-size: x-large;'>( ! )</span> Parse error: syntax error, unexpected '[' in C:\wamp\www\platform\01_front\protected\vendors\phptal\PHPTAL.php(845) : C:\Windows\TEMP\tpl_5564404b_login__vjlZ0ysEBJTM7X4vVXUUwQ.php on line <i>21</i></th></tr>
+<tr><th align='left' bgcolor='#e9b96e' colspan='5'>Call Stack</th></tr>
+<tr><th align='center' bgcolor='#eeeeec'>#</th><th align='left' bgcolor='#eeeeec'>Time</th><th align='left' bgcolor='#eeeeec'>Memory</th><th align='left' bgcolor='#eeeeec'>Function</th><th align='left' bgcolor='#eeeeec'>Location</th></tr>
+<tr><td bgcolor='#eeeeec' align='center'>1</td><td bgcolor='#eeeeec' align='center'>0.0007</td><td bgcolor='#eeeeec' align='right'>373904</td><td bgcolor='#eeeeec'>{main}(  )</td><td title='C:\wamp\www\platform\01_front\index.php' bgcolor='#eeeeec'>..\index.php<b>:</b>0</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>2</td><td bgcolor='#eeeeec' align='center'>0.0030</td><td bgcolor='#eeeeec' align='right'>659600</td><td bgcolor='#eeeeec'>Yii::createExtendWebApplication(  )</td><td title='C:\wamp\www\platform\01_front\index.php' bgcolor='#eeeeec'>..\index.php<b>:</b>18</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>3</td><td bgcolor='#eeeeec' align='center'>0.0170</td><td bgcolor='#eeeeec' align='right'>1993008</td><td bgcolor='#eeeeec'>CApplication->run(  )</td><td title='C:\wamp\www\platform\03_library\yii.php' bgcolor='#eeeeec'>..\yii.php<b>:</b>45</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>4</td><td bgcolor='#eeeeec' align='center'>0.0171</td><td bgcolor='#eeeeec' align='right'>1993008</td><td bgcolor='#eeeeec'>CWebApplication->processRequest(  )</td><td title='C:\wamp\www\platform\03_library\base\CApplication.php' bgcolor='#eeeeec'>..\CApplication.php<b>:</b>162</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>5</td><td bgcolor='#eeeeec' align='center'>0.0217</td><td bgcolor='#eeeeec' align='right'>2229712</td><td bgcolor='#eeeeec'>CWebApplication->runController(  )</td><td title='C:\wamp\www\platform\03_library\web\CWebApplication.php' bgcolor='#eeeeec'>..\CWebApplication.php<b>:</b>142</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>6</td><td bgcolor='#eeeeec' align='center'>0.0246</td><td bgcolor='#eeeeec' align='right'>2648720</td><td bgcolor='#eeeeec'>CController->run(  )</td><td title='C:\wamp\www\platform\03_library\web\CWebApplication.php' bgcolor='#eeeeec'>..\CWebApplication.php<b>:</b>283</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>7</td><td bgcolor='#eeeeec' align='center'>0.0252</td><td bgcolor='#eeeeec' align='right'>2690456</td><td bgcolor='#eeeeec'>CController->runActionWithFilters(  )</td><td title='C:\wamp\www\platform\03_library\web\CController.php' bgcolor='#eeeeec'>..\CController.php<b>:</b>266</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>8</td><td bgcolor='#eeeeec' align='center'>0.0252</td><td bgcolor='#eeeeec' align='right'>2690456</td><td bgcolor='#eeeeec'>CController->runAction(  )</td><td title='C:\wamp\www\platform\03_library\web\CController.php' bgcolor='#eeeeec'>..\CController.php<b>:</b>287</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>9</td><td bgcolor='#eeeeec' align='center'>0.0252</td><td bgcolor='#eeeeec' align='right'>2690456</td><td bgcolor='#eeeeec'>CInlineAction->runWithParams(  )</td><td title='C:\wamp\www\platform\03_library\web\CController.php' bgcolor='#eeeeec'>..\CController.php<b>:</b>309</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>10</td><td bgcolor='#eeeeec' align='center'>0.0253</td><td bgcolor='#eeeeec' align='right'>2691072</td><td bgcolor='#eeeeec'>SiteController->actionIndex(  )</td><td title='C:\wamp\www\platform\03_library\web\actions\CInlineAction.php' bgcolor='#eeeeec'>..\CInlineAction.php<b>:</b>50</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>11</td><td bgcolor='#eeeeec' align='center'>0.0493</td><td bgcolor='#eeeeec' align='right'>3908680</td><td bgcolor='#eeeeec'>CController->forward(  )</td><td title='C:\wamp\www\platform\01_front\protected\controllers\SiteController.php' bgcolor='#eeeeec'>..\SiteController.php<b>:</b>12</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>12</td><td bgcolor='#eeeeec' align='center'>0.0493</td><td bgcolor='#eeeeec' align='right'>3908712</td><td bgcolor='#eeeeec'>CController->run(  )</td><td title='C:\wamp\www\platform\03_library\web\CController.php' bgcolor='#eeeeec'>..\CController.php<b>:</b>748</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>13</td><td bgcolor='#eeeeec' align='center'>0.0494</td><td bgcolor='#eeeeec' align='right'>3909264</td><td bgcolor='#eeeeec'>CController->runActionWithFilters(  )</td><td title='C:\wamp\www\platform\03_library\web\CController.php' bgcolor='#eeeeec'>..\CController.php<b>:</b>266</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>14</td><td bgcolor='#eeeeec' align='center'>0.0494</td><td bgcolor='#eeeeec' align='right'>3909264</td><td bgcolor='#eeeeec'>CController->runAction(  )</td><td title='C:\wamp\www\platform\03_library\web\CController.php' bgcolor='#eeeeec'>..\CController.php<b>:</b>287</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>15</td><td bgcolor='#eeeeec' align='center'>0.0494</td><td bgcolor='#eeeeec' align='right'>3909264</td><td bgcolor='#eeeeec'>CInlineAction->runWithParams(  )</td><td title='C:\wamp\www\platform\03_library\web\CController.php' bgcolor='#eeeeec'>..\CController.php<b>:</b>309</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>16</td><td bgcolor='#eeeeec' align='center'>0.0495</td><td bgcolor='#eeeeec' align='right'>3909696</td><td bgcolor='#eeeeec'>SiteController->actionLogin(  )</td><td title='C:\wamp\www\platform\03_library\web\actions\CInlineAction.php' bgcolor='#eeeeec'>..\CInlineAction.php<b>:</b>50</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>17</td><td bgcolor='#eeeeec' align='center'>0.0839</td><td bgcolor='#eeeeec' align='right'>5500416</td><td bgcolor='#eeeeec'>Controller->render(  )</td><td title='C:\wamp\www\platform\01_front\protected\controllers\SiteController.php' bgcolor='#eeeeec'>..\SiteController.php<b>:</b>45</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>18</td><td bgcolor='#eeeeec' align='center'>0.0839</td><td bgcolor='#eeeeec' align='right'>5500480</td><td bgcolor='#eeeeec'>CController->renderPartial(  )</td><td title='C:\wamp\www\platform\01_front\protected\components\Controller.php' bgcolor='#eeeeec'>..\Controller.php<b>:</b>40</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>19</td><td bgcolor='#eeeeec' align='center'>0.0884</td><td bgcolor='#eeeeec' align='right'>5862224</td><td bgcolor='#eeeeec'>CBaseController->renderFile(  )</td><td title='C:\wamp\www\platform\03_library\web\CController.php' bgcolor='#eeeeec'>..\CController.php<b>:</b>870</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>20</td><td bgcolor='#eeeeec' align='center'>0.0890</td><td bgcolor='#eeeeec' align='right'>5925992</td><td bgcolor='#eeeeec'>PHPTALViewRenderer->renderFile(  )</td><td title='C:\wamp\www\platform\03_library\web\CBaseController.php' bgcolor='#eeeeec'>..\CBaseController.php<b>:</b>94</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>21</td><td bgcolor='#eeeeec' align='center'>0.0907</td><td bgcolor='#eeeeec' align='right'>6049616</td><td bgcolor='#eeeeec'>PHPTAL->execute(  )</td><td title='C:\wamp\www\platform\01_front\protected\extensions\PHPTALViewRenderer.php' bgcolor='#eeeeec'>..\PHPTALViewRenderer.php<b>:</b>50</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>22</td><td bgcolor='#eeeeec' align='center'>0.0907</td><td bgcolor='#eeeeec' align='right'>6049616</td><td bgcolor='#eeeeec'>PHPTAL->prepare(  )</td><td title='C:\wamp\www\platform\01_front\protected\vendors\phptal\PHPTAL.php' bgcolor='#eeeeec'>..\PHPTAL.php<b>:</b>667</td></tr>
+</table></font>' in C:\wamp\www\platform\01_front\protected\vendors\phptal\PHPTAL.php:857
+Stack trace:
+#0 C:\wamp\www\platform\01_front\protected\vendors\phptal\PHPTAL.php(667): PHPTAL->prepare()
+#1 C:\wamp\www\platform\01_front\protected\extensions\PHPTALViewRenderer.php(50): PHPTAL->execute()
+#2 C:\wamp\www\platform\03_library\web\CBaseController.php(94): PHPTALViewRenderer->renderFile(Object(SiteController), 'C:\wamp\www\pla...', Array, true)
+#3 C:\wamp\www\platform\03_library\web\CController.php(870): CBaseController->renderFile('C:\wamp\www\pla...', Array, true)
+#4 C:\wamp\www\platform\01_front\protected\components\Controller.php(40): CController->renderPartial('login', Array, true)
+#5 C:\wamp\www\platform\01_front\protected\controllers\SiteController.php(45): Controller->render('login', Array)
+#6 C:\wamp\www\platform\03_library\web\actions\CInlineAction.php(50): SiteController->actionLogin()
+#7 C:\wamp\www\platform\03_library\web\CController.php(309): CInlineAction->runWithParams(Array)
+#8 C:\wamp\www\platform\03_library\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#9 C:\wamp\www\platform\03_library\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\wamp\www\platform\03_library\web\CController.php(748): CController->run('login')
+#11 C:\wamp\www\platform\01_front\protected\controllers\SiteController.php(12): CController->forward('login')
+#12 C:\wamp\www\platform\03_library\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#13 C:\wamp\www\platform\03_library\web\CController.php(309): CInlineAction->runWithParams(Array)
+#14 C:\wamp\www\platform\03_library\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#15 C:\wamp\www\platform\03_library\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 C:\wamp\www\platform\03_library\web\CWebApplication.php(283): CController->run('')
+#17 C:\wamp\www\platform\03_library\web\CWebApplication.php(142): CWebApplication->runController('')
+#18 C:\wamp\www\platform\03_library\base\CApplication.php(162): CWebApplication->processRequest()
+#19 C:\wamp\www\platform\03_library\yii.php(45): CApplication->run()
+#20 C:\wamp\www\platform\01_front\index.php(18): Yii::createExtendWebApplication('C:\wamp\www\pla...')
+#21 {main}
+REQUEST_URI=/
+HTTP_REFERER=http://platform.dev/
+---
+2015/05/26 09:48:23 [error] [exception.PHPTAL_TemplateException] From C:\wamp\www\platform\01_front\protected\vendors\phptal\PHPTAL.php around line 857
+exception 'PHPTAL_TemplateException' with message '<br />
+<font size='1'><table class='xdebug-error' dir='ltr' border='1' cellspacing='0' cellpadding='1'>
+<tr><th align='left' bgcolor='#f57900' colspan="5"><span style='background-color: #cc0000; color: #fce94f; font-size: x-large;'>( ! )</span> Parse error: syntax error, unexpected '[' in C:\wamp\www\platform\01_front\protected\vendors\phptal\PHPTAL.php(845) : C:\Windows\TEMP\tpl_55644164_login__vjlZ0ysEBJTM7X4vVXUUwQ.php on line <i>21</i></th></tr>
+<tr><th align='left' bgcolor='#e9b96e' colspan='5'>Call Stack</th></tr>
+<tr><th align='center' bgcolor='#eeeeec'>#</th><th align='left' bgcolor='#eeeeec'>Time</th><th align='left' bgcolor='#eeeeec'>Memory</th><th align='left' bgcolor='#eeeeec'>Function</th><th align='left' bgcolor='#eeeeec'>Location</th></tr>
+<tr><td bgcolor='#eeeeec' align='center'>1</td><td bgcolor='#eeeeec' align='center'>0.0285</td><td bgcolor='#eeeeec' align='right'>373904</td><td bgcolor='#eeeeec'>{main}(  )</td><td title='C:\wamp\www\platform\01_front\index.php' bgcolor='#eeeeec'>..\index.php<b>:</b>0</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>2</td><td bgcolor='#eeeeec' align='center'>0.0309</td><td bgcolor='#eeeeec' align='right'>659600</td><td bgcolor='#eeeeec'>Yii::createExtendWebApplication(  )</td><td title='C:\wamp\www\platform\01_front\index.php' bgcolor='#eeeeec'>..\index.php<b>:</b>18</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>3</td><td bgcolor='#eeeeec' align='center'>0.0432</td><td bgcolor='#eeeeec' align='right'>1993008</td><td bgcolor='#eeeeec'>CApplication->run(  )</td><td title='C:\wamp\www\platform\03_library\yii.php' bgcolor='#eeeeec'>..\yii.php<b>:</b>45</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>4</td><td bgcolor='#eeeeec' align='center'>0.0432</td><td bgcolor='#eeeeec' align='right'>1993008</td><td bgcolor='#eeeeec'>CWebApplication->processRequest(  )</td><td title='C:\wamp\www\platform\03_library\base\CApplication.php' bgcolor='#eeeeec'>..\CApplication.php<b>:</b>162</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>5</td><td bgcolor='#eeeeec' align='center'>0.0471</td><td bgcolor='#eeeeec' align='right'>2229712</td><td bgcolor='#eeeeec'>CWebApplication->runController(  )</td><td title='C:\wamp\www\platform\03_library\web\CWebApplication.php' bgcolor='#eeeeec'>..\CWebApplication.php<b>:</b>142</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>6</td><td bgcolor='#eeeeec' align='center'>0.0501</td><td bgcolor='#eeeeec' align='right'>2648720</td><td bgcolor='#eeeeec'>CController->run(  )</td><td title='C:\wamp\www\platform\03_library\web\CWebApplication.php' bgcolor='#eeeeec'>..\CWebApplication.php<b>:</b>283</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>7</td><td bgcolor='#eeeeec' align='center'>0.0506</td><td bgcolor='#eeeeec' align='right'>2690456</td><td bgcolor='#eeeeec'>CController->runActionWithFilters(  )</td><td title='C:\wamp\www\platform\03_library\web\CController.php' bgcolor='#eeeeec'>..\CController.php<b>:</b>266</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>8</td><td bgcolor='#eeeeec' align='center'>0.0506</td><td bgcolor='#eeeeec' align='right'>2690456</td><td bgcolor='#eeeeec'>CController->runAction(  )</td><td title='C:\wamp\www\platform\03_library\web\CController.php' bgcolor='#eeeeec'>..\CController.php<b>:</b>287</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>9</td><td bgcolor='#eeeeec' align='center'>0.0506</td><td bgcolor='#eeeeec' align='right'>2690456</td><td bgcolor='#eeeeec'>CInlineAction->runWithParams(  )</td><td title='C:\wamp\www\platform\03_library\web\CController.php' bgcolor='#eeeeec'>..\CController.php<b>:</b>309</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>10</td><td bgcolor='#eeeeec' align='center'>0.0507</td><td bgcolor='#eeeeec' align='right'>2691072</td><td bgcolor='#eeeeec'>SiteController->actionIndex(  )</td><td title='C:\wamp\www\platform\03_library\web\actions\CInlineAction.php' bgcolor='#eeeeec'>..\CInlineAction.php<b>:</b>50</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>11</td><td bgcolor='#eeeeec' align='center'>0.0727</td><td bgcolor='#eeeeec' align='right'>3908680</td><td bgcolor='#eeeeec'>CController->forward(  )</td><td title='C:\wamp\www\platform\01_front\protected\controllers\SiteController.php' bgcolor='#eeeeec'>..\SiteController.php<b>:</b>12</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>12</td><td bgcolor='#eeeeec' align='center'>0.0727</td><td bgcolor='#eeeeec' align='right'>3908712</td><td bgcolor='#eeeeec'>CController->run(  )</td><td title='C:\wamp\www\platform\03_library\web\CController.php' bgcolor='#eeeeec'>..\CController.php<b>:</b>748</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>13</td><td bgcolor='#eeeeec' align='center'>0.0728</td><td bgcolor='#eeeeec' align='right'>3909264</td><td bgcolor='#eeeeec'>CController->runActionWithFilters(  )</td><td title='C:\wamp\www\platform\03_library\web\CController.php' bgcolor='#eeeeec'>..\CController.php<b>:</b>266</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>14</td><td bgcolor='#eeeeec' align='center'>0.0728</td><td bgcolor='#eeeeec' align='right'>3909264</td><td bgcolor='#eeeeec'>CController->runAction(  )</td><td title='C:\wamp\www\platform\03_library\web\CController.php' bgcolor='#eeeeec'>..\CController.php<b>:</b>287</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>15</td><td bgcolor='#eeeeec' align='center'>0.0728</td><td bgcolor='#eeeeec' align='right'>3909264</td><td bgcolor='#eeeeec'>CInlineAction->runWithParams(  )</td><td title='C:\wamp\www\platform\03_library\web\CController.php' bgcolor='#eeeeec'>..\CController.php<b>:</b>309</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>16</td><td bgcolor='#eeeeec' align='center'>0.0729</td><td bgcolor='#eeeeec' align='right'>3909696</td><td bgcolor='#eeeeec'>SiteController->actionLogin(  )</td><td title='C:\wamp\www\platform\03_library\web\actions\CInlineAction.php' bgcolor='#eeeeec'>..\CInlineAction.php<b>:</b>50</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>17</td><td bgcolor='#eeeeec' align='center'>0.0999</td><td bgcolor='#eeeeec' align='right'>5500416</td><td bgcolor='#eeeeec'>Controller->render(  )</td><td title='C:\wamp\www\platform\01_front\protected\controllers\SiteController.php' bgcolor='#eeeeec'>..\SiteController.php<b>:</b>45</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>18</td><td bgcolor='#eeeeec' align='center'>0.1000</td><td bgcolor='#eeeeec' align='right'>5500480</td><td bgcolor='#eeeeec'>CController->renderPartial(  )</td><td title='C:\wamp\www\platform\01_front\protected\components\Controller.php' bgcolor='#eeeeec'>..\Controller.php<b>:</b>40</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>19</td><td bgcolor='#eeeeec' align='center'>0.1041</td><td bgcolor='#eeeeec' align='right'>5862224</td><td bgcolor='#eeeeec'>CBaseController->renderFile(  )</td><td title='C:\wamp\www\platform\03_library\web\CController.php' bgcolor='#eeeeec'>..\CController.php<b>:</b>870</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>20</td><td bgcolor='#eeeeec' align='center'>0.1047</td><td bgcolor='#eeeeec' align='right'>5925992</td><td bgcolor='#eeeeec'>PHPTALViewRenderer->renderFile(  )</td><td title='C:\wamp\www\platform\03_library\web\CBaseController.php' bgcolor='#eeeeec'>..\CBaseController.php<b>:</b>94</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>21</td><td bgcolor='#eeeeec' align='center'>0.1062</td><td bgcolor='#eeeeec' align='right'>6049616</td><td bgcolor='#eeeeec'>PHPTAL->execute(  )</td><td title='C:\wamp\www\platform\01_front\protected\extensions\PHPTALViewRenderer.php' bgcolor='#eeeeec'>..\PHPTALViewRenderer.php<b>:</b>50</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>22</td><td bgcolor='#eeeeec' align='center'>0.1062</td><td bgcolor='#eeeeec' align='right'>6049616</td><td bgcolor='#eeeeec'>PHPTAL->prepare(  )</td><td title='C:\wamp\www\platform\01_front\protected\vendors\phptal\PHPTAL.php' bgcolor='#eeeeec'>..\PHPTAL.php<b>:</b>667</td></tr>
+</table></font>' in C:\wamp\www\platform\01_front\protected\vendors\phptal\PHPTAL.php:857
+Stack trace:
+#0 C:\wamp\www\platform\01_front\protected\vendors\phptal\PHPTAL.php(667): PHPTAL->prepare()
+#1 C:\wamp\www\platform\01_front\protected\extensions\PHPTALViewRenderer.php(50): PHPTAL->execute()
+#2 C:\wamp\www\platform\03_library\web\CBaseController.php(94): PHPTALViewRenderer->renderFile(Object(SiteController), 'C:\wamp\www\pla...', Array, true)
+#3 C:\wamp\www\platform\03_library\web\CController.php(870): CBaseController->renderFile('C:\wamp\www\pla...', Array, true)
+#4 C:\wamp\www\platform\01_front\protected\components\Controller.php(40): CController->renderPartial('login', Array, true)
+#5 C:\wamp\www\platform\01_front\protected\controllers\SiteController.php(45): Controller->render('login', Array)
+#6 C:\wamp\www\platform\03_library\web\actions\CInlineAction.php(50): SiteController->actionLogin()
+#7 C:\wamp\www\platform\03_library\web\CController.php(309): CInlineAction->runWithParams(Array)
+#8 C:\wamp\www\platform\03_library\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#9 C:\wamp\www\platform\03_library\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\wamp\www\platform\03_library\web\CController.php(748): CController->run('login')
+#11 C:\wamp\www\platform\01_front\protected\controllers\SiteController.php(12): CController->forward('login')
+#12 C:\wamp\www\platform\03_library\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#13 C:\wamp\www\platform\03_library\web\CController.php(309): CInlineAction->runWithParams(Array)
+#14 C:\wamp\www\platform\03_library\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#15 C:\wamp\www\platform\03_library\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 C:\wamp\www\platform\03_library\web\CWebApplication.php(283): CController->run('')
+#17 C:\wamp\www\platform\03_library\web\CWebApplication.php(142): CWebApplication->runController('')
+#18 C:\wamp\www\platform\03_library\base\CApplication.php(162): CWebApplication->processRequest()
+#19 C:\wamp\www\platform\03_library\yii.php(45): CApplication->run()
+#20 C:\wamp\www\platform\01_front\index.php(18): Yii::createExtendWebApplication('C:\wamp\www\pla...')
+#21 {main}
+REQUEST_URI=/
+HTTP_REFERER=http://platform.dev/
+---
