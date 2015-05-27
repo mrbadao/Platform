@@ -17,6 +17,7 @@ class SiteController extends Controller
 	}
 
     public function actionLogin(){
+        //Check logined
         if (!Yii::app()->user->IsGuest) {
             $this->redirect('index');
         }
@@ -30,6 +31,8 @@ class SiteController extends Controller
             Yii::app()->end();
         }
 
+        $hasError = false;
+
         // collect user input data
         if (isset($_POST['LoginForm'])) {
             $model->attributes = $_POST['LoginForm'];
@@ -37,13 +40,13 @@ class SiteController extends Controller
             if ($model->validate() && $model->login()) {
                 $this->forward('index');
             }
-            var_dump(CHtml::error($model, 'username', array('class' => 'txtWarning'))); die;
-
+            $hasError = true;
+            $errorMessage = $model->getError('username') ? $model->getError('username') : $model->getError('password');
         }
 
         // display the login form
         $this->layout ='login';
-        $this->render('login', compact('model'));
+        $this->render('login', compact('model', 'hasError', 'errorMessage'));
     }
 
     public function actionError(){

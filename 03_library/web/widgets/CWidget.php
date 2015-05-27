@@ -172,7 +172,7 @@ class CWidget extends CBaseController
 		{
 			if($checkTheme && ($theme=Yii::app()->getTheme())!==null)
 			{
-				$path=$theme->getViewPath().DIRECTORY_SEPARATOR;
+				$path=$theme->getViewPath().DIRECTORY_SEPARATOR."widgets".DIRECTORY_SEPARATOR;
 				if(strpos($className,'\\')!==false) // namespaced class
 					$path.=str_replace('\\','_',ltrim($className,'\\'));
 				else
