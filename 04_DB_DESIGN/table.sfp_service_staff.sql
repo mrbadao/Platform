@@ -37,6 +37,10 @@ CHANGE COLUMN `theme_id` `cms_theme_id` TINYINT(1) NOT NULL DEFAULT '1' ;
 ALTER TABLE `sfp_service_staff`.`administrators` 
 ADD COLUMN `front_theme_id` TINYINT(1) NOT NULL DEFAULT 1 AFTER `phone`;
 
+ALTER TABLE `sfp_service_staff`.`administrators`
+ADD COLUMN `profile_image` VARCHAR(128) NULL DEFAULT NULL AFTER `password`;
+
+
 CREATE TABLE `sfp_service_staff`.`theme` (
   `id` INT(10) NOT NULL AUTO_INCREMENT,
   `name` VARCHAR(128) NOT NULL,
