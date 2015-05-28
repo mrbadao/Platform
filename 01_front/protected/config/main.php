@@ -48,6 +48,10 @@ return array(
             'fileExtension' => '.html',
         ),
 
+        'picasaPhoto' => array(
+            'class' => 'ext.PicasaWebEXT',
+        ),
+
 		// uncomment the following to use a MySQL database
         'db'=> require(dirname(__FILE__) . '/database/sfp_service_staff.php'),
         'dbSetting'=> require(dirname(__FILE__) . '/database/sfp_service_setting.php'),

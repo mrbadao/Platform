@@ -60,4 +60,15 @@ class Controller extends CController
     {
         $this->title = $title;
     }
+
+    public function beforeAction(CAction $action)
+    {
+        if(Yii::app()->user->isGuest && !($action->controller->id == 'site' && $action->id == 'login'))
+        {
+            $this->forward('site/login');
+        }
+        return true;
+    }
+
+
 }

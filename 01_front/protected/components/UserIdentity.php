@@ -9,8 +9,6 @@ class UserIdentity extends CUserIdentity
 {
     private  $_id;
     private  $_name;
-    private  $_isAdmin;
-    private  $_isSuperAdmin;
     /**
     * Authenticates a user.
      * The example implementation makes sure if the username and password
@@ -32,10 +30,15 @@ class UserIdentity extends CUserIdentity
             $this->errorCode = self::ERROR_PASSWORD_INVALID;
         else
         {
+
             $this->_id = $administrator->id;
             $this->_name = $administrator->name;
-            $this->_isAdmin = true;
-            $this->_isSuperAdmin = $administrator->is_super;
+
+            $this->setState('isAdmin', true);
+            $this->setState('isSuperAdmin', $administrator->is_super);
+            $this->setState('profileImg', $administrator->profile_image);
+            $this->setState('joinDate', date('M, Y', strtotime($administrator->created)));
+            $this->setState('position', "Administrator");
             $this->username = $administrator->login_id;
             $this->errorCode = self::ERROR_NONE;
         }
@@ -50,13 +53,5 @@ class UserIdentity extends CUserIdentity
 
     public function getName(){
         return $this->_name;
-    }
-
-    public function isAdmin(){
-        return $this->_isAdmin;
-    }
-
-    public function isSuperAdmin(){
-        return $this->_isSuperAdmin;
     }
 }

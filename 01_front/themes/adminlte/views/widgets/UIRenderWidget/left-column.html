@@ -2,13 +2,16 @@
     <!-- sidebar: style can be found in sidebar.less -->
     <section class="sidebar">
         <!-- Sidebar user panel -->
-        <div class="user-panel">
+        <div class="user-panel" tal:define="global name php: user->getName()">
             <div class="pull-left image">
-                <img src="img/avatar3.png" class="img-circle" alt="User Image" />
+                <img tal:define="global img user/profileImg" src="${img|''}" class="img-circle" alt="${name}" />
             </div>
             <div class="pull-left info">
-                <p tal:define="global name php: user->getName()">Hello, ${name|''}</p>
-                <!--<a href="#"><i class="fa fa-circle text-success"></i> Online</a>-->
+                <p>Hello, ${name|''}</p>
+                <a href="javascript:void(0)" tal:condition="user/isAdmin">
+                    <i class="fa fa-circle text-success"></i>
+                    Administrator
+                </a>
             </div>
         </div>
 

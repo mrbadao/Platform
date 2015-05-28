@@ -15,7 +15,7 @@ class PicasaWebEXT extends CApplicationComponent
         Zend_Loader::loadClass('Zend_Gdata_ClientLogin');
         Zend_Loader::loadClass('Zend_Gdata_AuthSub');
 
-        $this->username = "hieunc1218@gmail.com";
+        $this->username = "hieunc18@gmail.com";
         $this->pass = "077812660109";
 
         $client = Zend_Gdata_ClientLogin::getHttpClient($this->username, $this->pass, Zend_Gdata_Photos::AUTH_SERVICE_NAME);
@@ -33,6 +33,7 @@ class PicasaWebEXT extends CApplicationComponent
 
         try {
             $albums = $this->gp->getUserFeed("default");
+            foreach($albums as $a) var_dump($a->getId());
         } catch (Zend_Gdata_App_HttpException $e) {
             $error['hasError'] = true;
             $error['msg'] = $e->getMessage();

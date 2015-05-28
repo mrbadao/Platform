@@ -79,6 +79,7 @@ class Administrators extends CActiveRecord
 		$criteria->compare('id',$this->id);
 		$criteria->compare('login_id',$this->login_id,true);
 		$criteria->compare('password',$this->password,true);
+		$criteria->compare('profile_image',$this->profile_image,true);
 		$criteria->compare('is_super',$this->is_super);
 		$criteria->compare('name',$this->name,true);
 		$criteria->compare('address',$this->address,true);
