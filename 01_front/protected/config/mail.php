@@ -35,6 +35,4 @@ return array(
     'Port' => 465,
     'SMTPSecure' => 'ssl',
     'SMTPAuth' => true,
-//    'Username' => 'hieunc18@gmail.com',
-//    'Password' => '077812660109s',
 );

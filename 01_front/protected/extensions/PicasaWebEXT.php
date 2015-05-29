@@ -15,8 +15,8 @@ class PicasaWebEXT extends CApplicationComponent
         Zend_Loader::loadClass('Zend_Gdata_ClientLogin');
         Zend_Loader::loadClass('Zend_Gdata_AuthSub');
 
-        $this->username = "hieunc18@gmail.com";
-        $this->pass = "077812660109";
+        $this->username = "hieunc1218@gmail.com";
+        $this->pass = "07781266088109";
 
         $client = Zend_Gdata_ClientLogin::getHttpClient($this->username, $this->pass, Zend_Gdata_Photos::AUTH_SERVICE_NAME);
         $this->gp = new Zend_Gdata_Photos($client, "Google-DevelopersGuide-1.0");
