@@ -232,7 +232,7 @@
                     </div><!-- /.box -->
 
                     <!-- quick email widget -->
-                    <tal:block tal:content="structure php:this.widget('application.widgets.QuickEmailWidget',array(),true)"/>
+                    <tal:block tal:content="structure php:this.widget('application.widgets.QuickEmailWidget',array('controllAction'=>'Quickmail'),true)"/>
 
                 </section><!-- /.Left col -->
                 <!-- right col (We are only adding the ID to make the widgets sortable)-->

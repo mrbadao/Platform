@@ -11,36 +11,38 @@
         <!-- /. tools -->
     </div>
     <form action="" method="post" id="frmQuickEmail">
-    <div class="box-body">
+        <div class="box-body">
 
-            <div class="form-group">
-                <input id="emailto" type="text" class="form-control" name="emailto" placeholder="Email to:" value=""/>
-            </div>
-            <div class="form-group">
-                <input type="text" class="form-control" name="subject" placeholder="Subject" value=""/>
-            </div>
-            <div>
-                <textarea class="textarea" placeholder="Message"
-                          style="width: 100%; height: 125px; font-size: 14px; line-height: 18px; border: 1px solid #dddddd; padding: 10px;"></textarea>
-            </div>
+                <div class="form-group">
+                    <input id="emailto" type="text" class="form-control" name="emailto" placeholder="Email to:" value=""/>
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" name="subject" placeholder="Subject" value=""/>
+                </div>
+                <div>
+                    <textarea class="textarea" placeholder="Message"
+                              style="width: 100%; height: 125px; font-size: 14px; line-height: 18px; border: 1px solid #dddddd; padding: 10px;"></textarea>
+                </div>
 
-    </div>
-    <div class="box-footer clearfix">
-        <button type="button" onclick="sendQuickEmail('http://platform.dev/test',$('#frmQuickEmail'))" class="pull-right btn btn-default" id="sendEmail">Send <i class="fa fa-arrow-circle-right"></i></button>
-    </div>
+        </div>
+        <div class="box-footer clearfix">
+            <button type="button" onclick="sendQuickEmail('${controllAction}',$('#frmQuickEmail'))" class="pull-right btn btn-default" id="sendEmail">Send <i class="fa fa-arrow-circle-right"></i></button>
+        </div>
     </form>
+    <div class="overlay" style="display: none;"></div>
+    <div class="loading-img" style="display: none;"></div>
 </div>
 
 <script type="text/javascript">
 <![CDATA[
+//$(function() {
+//    $( "#dialog" ).dialog;
+//});
     function sendQuickEmail(controller, frm){
         var data = {"email":{"emailto":frm.find("input[name=emailto]").val(), "subject":frm.find("input[name=subject]").val(),"data":frm.find("textarea").data("wysihtml5").editor.getValue()}};
         var btnSend = frm.find('#sendEmail:first-child');
-//        var data = frm.find('input').serializeArray();
         btnSend.attr("disabled","disabled");
-//        data = JSON.stringify(data);
-//        data.serializeArray();
-        console.log(data);
+
         $.ajax({
             type: "post",
             dataType: "json",
@@ -48,12 +50,18 @@
             data: data,
 
             error:function(jqXHR, textStatus, errorThrown){
-                console.log(textStatus);
-                console.log(errorThrown);
+                frm.parent().find('.overlay').hide();
+                frm.parent().find('.loading-img').hide();
                 btnSend.removeAttr("disabled");
             },
+            beforeSend:function(jqXHR, settings ){
+                frm.parent().find('.overlay').show();
+                frm.parent().find('.loading-img').show();
+            },
             success: function (data) {
-                alert(data);
+                frm.parent().find('.overlay').hide();
+                frm.parent().find('.loading-img').hide();
+                alert(data.message);
                 btnSend.removeAttr("disabled");
             }
         });
@@ -61,3 +69,4 @@
     }
 ]]>
 </script>
+

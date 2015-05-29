@@ -2,6 +2,7 @@
 
 class QuickEmailWidget extends CWidget
 {
+    public $controllAction;
     public function init()
     {
 
@@ -9,6 +10,7 @@ class QuickEmailWidget extends CWidget
 
     public function run()
     {
-        return $this->render('index-quick-email');
+        $controllAction = $this->controllAction;
+        return $this->render('index-quick-email', compact('controllAction'));
     }
 }

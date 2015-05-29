@@ -47,6 +47,7 @@ class SiteController extends Controller
 
     public function actionError()
     {
+        var_dump(Yii::app()->errorHandler->error); die;
         if ($error = Yii::app()->errorHandler->error) {
             if (Yii::app()->request->isAjaxRequest)
                 echo $error['message'];
@@ -71,7 +72,7 @@ class SiteController extends Controller
      * @throws \Exception
      * @throws \phpmailerException
      */
-    public function actionTest()
+    public function actionQuickMail()
     {
         if(!Yii::app()->request->isAjaxRequest) throw new CHttpException(404,' Page not found.');
 
@@ -128,3 +129,26 @@ class SiteController extends Controller
     }
 
 }
+
+
+//        $hostname = '{imap.gmail.com:993/imap/ssl/novalidate-cert}INBOX';
+//        $username = 'hieunc1218@gmail.com';
+//        $password = '077812660109';
+//
+//        $inbox = imap_open($hostname, $username, $password) or die('Cannot connect to gmail: ' . imap_last_error());
+//        $headers = imap_headers($inbox) or die('Could not get emails');
+//        $numEmails = sizeof($headers);
+//        echo "You have $numEmails in your mailbox<br/>";
+//
+//        for ($i = 1; $i < $numEmails + 1; $i++) {
+//            $mailHeader = imap_headerinfo($inbox, $i);
+////            var_dump($mailHeader->fromaddress);die;
+//            $from = isset($mailHeader->fromaddress) ? imap_utf8($mailHeader->fromaddress) : '';
+//            $subject = strip_tags($mailHeader->subject);
+//            $date = $mailHeader->date;
+//            //$body = imap_body($inbox, $i);
+//            echo "Email from $from, subject $subject, date $date<BR />";
+//            //echo strip_tags($body) . "<BR />" . "<BR />" . "<BR />";
+//        }
+//
+//        imap_close($inbox);
