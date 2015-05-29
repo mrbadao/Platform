@@ -51,3 +51,13 @@ CREATE TABLE `sfp_service_staff`.`theme` (
   PRIMARY KEY (`id`),
   UNIQUE INDEX `name_UNIQUE` (`name` ASC),
   UNIQUE INDEX `theme_dir_UNIQUE` (`theme_dir` ASC));
+
+
+CREATE TABLE `sfp_service_staff`.`pwd_store` (
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `staff_id` INT NOT NULL,
+  `role` VARCHAR(45) NOT NULL DEFAULT 'staff',
+  `value` VARCHAR(128) NOT NULL,
+  `created` DATETIME NULL DEFAULT NULL,
+  `modified` DATETIME NULL DEFAULT NULL,
+  PRIMARY KEY (`id`));

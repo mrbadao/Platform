@@ -1,0 +1,63 @@
+<div class="box box-info">
+    <div class="box-header">
+        <i class="fa fa-envelope"></i>
+
+        <h3 class="box-title">Quick Email</h3>
+        <!-- tools box -->
+        <div class="pull-right box-tools">
+            <button class="btn btn-info btn-sm" data-widget="remove" data-toggle="tooltip" title="Remove"><i
+                    class="fa fa-times"></i></button>
+        </div>
+        <!-- /. tools -->
+    </div>
+    <form action="" method="post" id="frmQuickEmail">
+    <div class="box-body">
+
+            <div class="form-group">
+                <input id="emailto" type="text" class="form-control" name="emailto" placeholder="Email to:" value=""/>
+            </div>
+            <div class="form-group">
+                <input type="text" class="form-control" name="subject" placeholder="Subject" value=""/>
+            </div>
+            <div>
+                <textarea class="textarea" placeholder="Message"
+                          style="width: 100%; height: 125px; font-size: 14px; line-height: 18px; border: 1px solid #dddddd; padding: 10px;"></textarea>
+            </div>
+
+    </div>
+    <div class="box-footer clearfix">
+        <button type="button" onclick="sendQuickEmail('http://platform.dev/test',$('#frmQuickEmail'))" class="pull-right btn btn-default" id="sendEmail">Send <i class="fa fa-arrow-circle-right"></i></button>
+    </div>
+    </form>
+</div>
+
+<script type="text/javascript">
+<![CDATA[
+    function sendQuickEmail(controller, frm){
+        var data = {"email":{"emailto":frm.find("input[name=emailto]").val(), "subject":frm.find("input[name=subject]").val(),"data":frm.find("textarea").data("wysihtml5").editor.getValue()}};
+        var btnSend = frm.find('#sendEmail:first-child');
+//        var data = frm.find('input').serializeArray();
+        btnSend.attr("disabled","disabled");
+//        data = JSON.stringify(data);
+//        data.serializeArray();
+        console.log(data);
+        $.ajax({
+            type: "post",
+            dataType: "json",
+            url: controller,
+            data: data,
+
+            error:function(jqXHR, textStatus, errorThrown){
+                console.log(textStatus);
+                console.log(errorThrown);
+                btnSend.removeAttr("disabled");
+            },
+            success: function (data) {
+                alert(data);
+                btnSend.removeAttr("disabled");
+            }
+        });
+
+    }
+]]>
+</script>

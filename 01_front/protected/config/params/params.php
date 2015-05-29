@@ -9,4 +9,5 @@
 return array(
     //Config security
     'secret_key' => 'hieunc',
+    'YiiMailer' => 'application.config',
 );

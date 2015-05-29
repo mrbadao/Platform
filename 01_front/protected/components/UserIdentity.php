@@ -37,6 +37,7 @@ class UserIdentity extends CUserIdentity
             $this->setState('isAdmin', true);
             $this->setState('isSuperAdmin', $administrator->is_super);
             $this->setState('profileImg', $administrator->profile_image);
+            $this->setState('email', $administrator->email);
             $this->setState('joinDate', date('M, Y', strtotime($administrator->created)));
             $this->setState('position', "Administrator");
             $this->username = $administrator->login_id;

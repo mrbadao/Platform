@@ -30,6 +30,7 @@ class SiteController extends Controller
 
         // collect user input data
         if (isset($_POST['LoginForm'])) {
+            $_POST['LoginForm']['rememberMe'] = $_POST['LoginForm']['rememberMe'] == 'on' ? true : false;
             $model->attributes = $_POST['LoginForm'];
 
             if ($model->validate() && $model->login()) {
@@ -64,44 +65,66 @@ class SiteController extends Controller
         $this->redirect(Yii::app()->homeUrl);
     }
 
+    /**
+     * send mail by ajax
+     * @throws \CException
+     * @throws \Exception
+     * @throws \phpmailerException
+     */
     public function actionTest()
     {
-        if (stristr(PHP_OS, 'win')) {
+        if(!Yii::app()->request->isAjaxRequest) throw new CHttpException(404,' Page not found.');
 
-            $wmi = new COM("Winmgmts://");
-            $server = $wmi->execquery("SELECT LoadPercentage FROM Win32_Processor");
+        if (isset($_POST['email'])) {
 
-            $cpu_num = 0;
-            $load_total = 0;
-
-            foreach($server as $cpu){
-                $cpu_num++;
-                $load_total += $cpu->loadpercentage;
+            $mail2Send = $_POST['email'];
+            if (strpos($mail2Send['emailto'], '@') == false) {
+                $mail2Send['emailto'] .= substr(Yii::app()->user->email, strpos(Yii::app()->user->email, '@'));
             }
 
-            $load = (doubleval($load_total/$cpu_num));
+            Yii::import('ext.YiiMailer', true);
+            $config = require_once(Yii::getPathOfAlias(Yii::app()->params['YiiMailer']) . DIRECTORY_SEPARATOR . "mail.php");
+            $config['Username'] = Yii::app()->user->email;
 
-        } else {
+            $CriteriaArr = array(
+                'staff_id' => Yii::app()->user->getId(),
+                'role' =>  'staff',
+            );
 
-            $sys_load = sys_getloadavg();
-            $load = $sys_load[0];
+            if (Yii::app()->user->isAdmin) {
+                $config['savePath'] = str_replace('assets', "assets.admin." . Yii::app()->user->getId(), $config['savePath']);
+                $CriteriaArr['role'] = 'administrators';
+            }
+            else $config['savePath'] = str_replace('assets', "assets.staff." . Yii::app()->user->getId(), $config['savePath']);
 
+            $config['Password'] = PwdStore::model()->findByAttributes($CriteriaArr)->value;;
+
+            if (!file_exists(Yii::getPathOfAlias($config['savePath']))) {
+                mkdir(Yii::getPathOfAlias($config['savePath']), 0755, true);
+            }
+
+            $mail = new YiiMailer($config);
+            $mail->setFrom(Yii::app()->user->email, Yii::app()->user->getName());
+            $mail->setTo($mail2Send['emailto']);
+            $mail->setSubject($mail2Send['subject']);
+            $mail->setBody($mail2Send['data']);
+            $mail->IsSMTP();
+            if ($mail->send()) {
+                echo json_encode(
+                    array(
+                        'status' => 200,
+                        'message' => 'send mail success.',
+                    )
+                );
+            } else {
+                echo json_encode(
+                    array(
+                        'error' => 500,
+                        'message' => $mail->getError(),
+                    )
+                );
+            }
         }
-
-        $memory_last_line = exec('free',$memory);
-//        $memory[1] = str_replace("     ", "-",$memory[1]);
-//        $parts = explode(" ",$memory[1]);
-//        $parts2 = explode("-",$parts[3]);
-//        $mem_percent = $parts2[1] / $parts2[0] * 100;
-//        $mem_percent = round($mem_percent);
-
-        echo  $memory_last_line;
     }
-
-
-
-
-
-
 
 }
