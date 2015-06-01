@@ -13,6 +13,11 @@ ALTER TABLE `sfp_service_staff`.`staff`
 ADD COLUMN `cms_theme_id` TINYINT(1) NOT NULL DEFAULT 1 AFTER `email`,
 ADD COLUMN `front_theme_id` TINYINT(1) NULL DEFAULT 1 AFTER `cms_theme_id`;
 
+ALTER TABLE `sfp_service_staff`.`staff`
+ADD COLUMN `profile_image` VARCHAR(128) NOT NULL AFTER `password`,
+ADD COLUMN `address` TEXT NOT NULL AFTER `name`,
+ADD COLUMN `phone` VARCHAR(128) NOT NULL AFTER `address`;
+
 
 CREATE TABLE `sfp_service_staff`.`administrators` (
   `id` INT(10) NOT NULL AUTO_INCREMENT,

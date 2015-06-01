@@ -9,6 +9,15 @@ class UserIdentity extends CUserIdentity
 {
     private  $_id;
     private  $_name;
+    private  $_logoutUrl;
+    public $role;
+
+    public function __construct($username,$password, $role)
+    {
+        $this->username=$username;
+        $this->role=$role;
+        $this->password=$password;
+    }
     /**
     * Authenticates a user.
      * The example implementation makes sure if the username and password
@@ -19,28 +28,34 @@ class UserIdentity extends CUserIdentity
      */
     public function authenticate()
     {
+        $staff = null;
 
         $c = new CDbCriteria();
         $c->condition = 'login_id=:loginid';
         $c->params = array(':loginid' => $this->username);
-        $administrator = Administrators::model()->find($c);
-        if ($administrator === null)
+
+        if($this->role =='1'){
+            $staff = Administrators::model()->find($c);
+            $this->_logoutUrl = Yii::app()->createUrl('admin/logout');
+        }else{
+            $staff = Staff::model()->find($c);
+            $this->_logoutUrl = Yii::app()->createUrl('member/logout');
+        }
+
+        if ($staff === null)
             $this->errorCode = self::ERROR_USERNAME_INVALID;
-        else if ($administrator->password !== $administrator->hashPassword($this->password))
+        else if ($staff->password !== $staff->hashPassword($this->password))
             $this->errorCode = self::ERROR_PASSWORD_INVALID;
         else
         {
-
-            $this->_id = $administrator->id;
-            $this->_name = $administrator->name;
-
-            $this->setState('isAdmin', true);
-            $this->setState('isSuperAdmin', $administrator->is_super);
-            $this->setState('profileImg', $administrator->profile_image);
-            $this->setState('email', $administrator->email);
-            $this->setState('joinDate', date('M, Y', strtotime($administrator->created)));
-            $this->setState('position', "Administrator");
-            $this->username = $administrator->login_id;
+            $this->_id = $staff->id;
+            $this->_name = $staff->name;
+            $this->setState('isAdmin', $this->role);
+            $this->setState('isSuperAdmin', $this->role == '1' ? $staff->is_super : 0);
+            $this->setState('profileImg', $staff->profile_image);
+            $this->setState('joinDate', date('M, Y', strtotime($staff->created)));
+            $this->setState('position', $this->role == '1' ? 'Administrator' : 'Member');
+            $this->setState('logoutUrl', $this->_logoutUrl);
             $this->errorCode = self::ERROR_NONE;
         }
 

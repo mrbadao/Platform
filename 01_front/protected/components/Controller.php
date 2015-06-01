@@ -6,8 +6,8 @@
  */
 class Controller extends CController
 {
-    const SESS_KEY = '_SITEID';
     public $siteId;
+    public $title;
     /**
      * @var string the default layout for the controller view. Defaults to '//layouts/column1',
      * meaning using a single column layout. See 'protected/views/layouts/column1.php'.
@@ -26,12 +26,6 @@ class Controller extends CController
     public function init()
     {
         Yii::app()->theme = 'adminlte';
-
-        if (Yii::app()->params['requireSSL'] && (!isset($_SERVER['HTTPS']) || $_SERVER['HTTPS'] != "on")) {
-            $redirect = "https://" . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
-            header("HTTP/1.1 301 Moved Permanently");
-            header("Location: $redirect");
-        }
     }
 
     public function render($view, $data = null, $return = false)
@@ -56,16 +50,26 @@ class Controller extends CController
         }
     }
 
-    public function setTitle($title)
-    {
-        $this->title = $title;
-    }
-
     public function beforeAction(CAction $action)
     {
-        if(Yii::app()->user->isGuest && !($action->controller->id == 'site' && $action->id == 'login'))
+        $this->title = Yii::app()->name." | ".$action->id;
+
+        if($action->controller->id == 'site') return true;
+
+        if(Yii::app()->user->isGuest && !($action->controller->id == 'admin' && $action->id == 'login'))
         {
-            $this->forward('site/login');
+            switch($action->controller->id){
+                case 'admin':
+                    if($action->id == 'login') return true;
+                    else $loginUrl = $this->createUrl('admin/login');
+                    break;
+                case 'member':
+                    if($action->id == 'login') return true;
+                    else $loginUrl = $this->createUrl('member/login');
+                    break;
+            }
+            var_dump($loginUrl);
+            $this->redirect($loginUrl);
         }
         return true;
     }

@@ -1,6 +1,6 @@
 <?php
 
-class SideBarMenuWidget extends CWidget
+class MainMenuWidget extends CWidget
 {
     public $view;
 

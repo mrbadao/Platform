@@ -1,6 +1,6 @@
 <?php
 
-class MailboxModule extends CWebModule
+class AccountModule extends CWebModule
 {
 	public function init()
 	{
@@ -9,8 +9,8 @@ class MailboxModule extends CWebModule
 
 		// import the module-level models and components
 		$this->setImport(array(
-			'mailbox.models.*',
-			'mailbox.components.*',
+			'account.models.*',
+			'account.components.*',
 		));
 	}
 

@@ -1,22 +1,28 @@
 <?php
 
 /**
- * This is the model class for table "pwd_store".
+ * This is the model class for table "staff".
  *
- * The followings are the available columns in table 'pwd_store':
+ * The followings are the available columns in table 'staff':
  * @property integer $id
- * @property integer $staff_id
- * @property string $role
- * @property string $value
+ * @property string $login_id
+ * @property string $password
+ * @property string $profile_image
+ * @property string $name
+ * @property string $address
+ * @property string $phone
+ * @property string $email
+ * @property integer $cms_theme_id
+ * @property integer $front_theme_id
  * @property string $created
  * @property string $modified
  */
-class PwdStore extends CActiveRecord
+class Staff extends CActiveRecord
 {
 	/**
 	 * Returns the static model of the specified AR class.
 	 * @param string $className active record class name.
-	 * @return PwdStore the static model class
+	 * @return Staff the static model class
 	 */
 	public static function model($className=__CLASS__)
 	{
@@ -71,9 +77,15 @@ class PwdStore extends CActiveRecord
 		$criteria=new CDbCriteria;
 
 		$criteria->compare('id',$this->id);
-		$criteria->compare('staff_id',$this->staff_id);
-		$criteria->compare('role',$this->role,true);
-		$criteria->compare('value',$this->value,true);
+		$criteria->compare('login_id',$this->login_id,true);
+		$criteria->compare('password',$this->password,true);
+		$criteria->compare('profile_image',$this->profile_image,true);
+		$criteria->compare('name',$this->name,true);
+		$criteria->compare('address',$this->address,true);
+		$criteria->compare('phone',$this->phone,true);
+		$criteria->compare('email',$this->email,true);
+		$criteria->compare('cms_theme_id',$this->cms_theme_id);
+		$criteria->compare('front_theme_id',$this->front_theme_id);
 		$criteria->compare('created',$this->created,true);
 		$criteria->compare('modified',$this->modified,true);
 
@@ -85,5 +97,9 @@ class PwdStore extends CActiveRecord
     private function getConfig($name){
         $config = require_once(Yii::app()->params['modelConfigPath'].__CLASS__.'.php');
         return !isset($config[$name]) || empty($config[$name]) ? array() : $config[$name];
+    }
+
+    public function hashPassword($pwd){
+        return md5($pwd);
     }
 }

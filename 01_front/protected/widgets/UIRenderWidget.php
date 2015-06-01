@@ -16,7 +16,6 @@ class UIRenderWidget extends CWidget
 
     public function run()
     {
-
         $data = $this->data;
         return $this->render($this->view, compact('data'));
     }
